@@ -10,9 +10,12 @@ body {
   /* background-color: #181d17;
   background-color: rgb(13,17,23); */
   background-color: #EEEEEE;
+  font-family: 'Lato';
+  /* font-size: 18px; */
+  /* font-family: 'Open Sans'; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
