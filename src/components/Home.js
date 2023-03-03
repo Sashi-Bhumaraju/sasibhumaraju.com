@@ -41,7 +41,7 @@ function Home () {
           </div>
             <div className='Self'>
              <div className='SelfTitle'>
-               <span className='SelfTitleA'>Front end</span> <span className='SelfTitleB'>Engineer</span> 
+             <div>  <span className='SelfTitleA'>Front end</span> <span className='SelfTitleB'>Engineer</span> </div>
                <div className='SelfBody'>Back End Developer</div>
             </div>   
             

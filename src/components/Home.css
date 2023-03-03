@@ -73,9 +73,12 @@
 }
 .SelfTitle {
      
-float: left;
+/* float: left; */
+
 }
 .SelfTitleA {
+  
+
     font-size: 55px;
     font-weight: bold;
     color: #DC5F00;
@@ -157,7 +160,125 @@ float: left;
   .card-text {
     color: #EEEEEE;
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 14px;
     line-height: 1.3;
     /* font-family: 'Lato'; */
   }
+
+
+
+
+  
+@media only screen and (max-width: 750px) {
+
+  .Home {
+    margin: 0px 0px;
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    /* background-color: green; */
+    min-height: 200px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* float: right; */
+    color: rgb(0, 0, 0);
+}
+
+  .HomeImage{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    overflow: hidden; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;  
+    /* background-color: red;   */
+}
+
+.HomeImageBody {
+   width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+  
+  font-size: 12px;
+
+}
+
+.Self{
+ height: 150px;
+ display: flex;
+ justify-content:space-between;
+ flex-direction: column;
+ width: 100%;
+ /* background-color: red; */
+}
+
+.SelfTitle {
+   display: flex;
+   flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .SelfTitleA {
+      font-size: 18px;
+      font-weight: bold;
+      color: #DC5F00;
+  
+  }
+  .SelfTitleB {
+      margin: 0px 4px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #000000;
+  }
+  .SelfBody {
+      font-weight: 600;
+      color: #000000b9;
+      font-size: 12px;
+  }
+  
+  .HireMe{
+    width: 80px;
+    color: white;
+    background-color: #CF0A0A;
+    text-align: center;
+    line-height: 32px;
+    margin: 0px 20px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    }
+  
+    .HireMe:hover{
+      transition: transform 0.5s ease;
+      background-color: #DC5F00;
+      transform: scale(1.05);
+    }
+  .SocialIcons{
+    display: flex;
+    flex-direction: row;
+       justify-content: center;
+       align-items: center;
+  }
+  .Icon{
+    width: 20px;
+  }
+  .HireMe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  }
+  
+}
