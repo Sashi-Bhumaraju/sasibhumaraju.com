@@ -34,8 +34,8 @@ function Home () {
             <div className='HomeImageBody'>
              <Lottie options={defaultOptions}  height={500} width={500} /> 
 
-    <div class="card-overlay">
-    <p class="card-text"> This is SasiBhumaraju. I'm a React JS front-end developer and Java Spring Boot back-end developer with experience designing and implementing web applications. </p>
+    <div className="card-overlay">
+    <p className="card-text"> This is SasiBhumaraju. I'm a React JS front-end developer and Java Spring Boot back-end developer with experience designing and implementing web applications. </p>
   </div>
              </div>
           </div>

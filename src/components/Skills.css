@@ -1,18 +1,95 @@
 .Skills {
     width: 100%;
-    height: 100vh;
-    /* background-color: #181d17; */
+    height: max-content;
+    /* min-height: 500px; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     color: white;
+    background-color: red;
+    background-color: #EEEEEE;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    /* background-image: linear-gradient(to right, #EEEEEE , #DC5F00); */
 }
 
-.SkillContent {
-    margin-top: 60px;
-    width: calc(100% - 268px);
+.SkillsTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #CF0A0A;
+    margin: 50px 0px 0px 0px;
+}
+
+.SkillsAboutMe {
+    color:#000000;
     font-weight: 100;
-    font-size: 20px;
+    text-align: left;
+    margin: 50px 100px 50px 100px;
+    line-height: 22px;
+    font-weight: 100;
+    word-spacing: 1px;
+    /* font-size: 18px; */
+    /* min-width: 900px; */
+    
+}
+
+.SkillsNames {
+     height: 160px;
+     /* width: 100vw; */
+     width: calc(100vw - 200px);
+     color: black;
+     /* background-color: red; */
+     margin: 0px 100px 100px 100px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.SkillsNamesCard {
+    width: 110px;
+    height: 145px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #CF0A0A;
+}
+
+.SkillsNamesCard:hover {
+    scale: 1.1;
+    transition: scale 0.3s;
+    cursor: pointer;
+}
+
+.SkillsNamesCardImage {
+    width: 40px;
+    height: 40px;
+    object-fit:fill;
+    background-color:#EEEEEE;
+    /* filter: blur(8px); */
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    margin: 10px;
+    border-radius: 2.5px;
+}
+
+.SkillsNamesCardText {
+    font-weight: 900;
     letter-spacing: 1px;
-    word-spacing: 2px;
-    margin-bottom: 200px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.arrow {
+    width: 12px;
+    margin: 20px;
+    opacity: 0.3;
 }
