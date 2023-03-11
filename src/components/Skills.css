@@ -1,3 +1,5 @@
+
+
 .Skills {
     width: 100%;
     height: max-content;
@@ -35,16 +37,17 @@
 }
 
 .SkillsNames {
-     height: 160px;
+     height: 200px;
      /* width: 100vw; */
-     width: calc(100vw - 200px);
+     width: calc(100vw - 10%);
      color: black;
      /* background-color: red; */
-     margin: 0px 100px 100px 100px;
+     margin: 0px 0px 90px 0px;
     display: flex; 
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    overflow: visible;
    
 }
 
@@ -55,6 +58,9 @@
     margin: 8px;
     border-radius: 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: #DC5F00 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -91,5 +97,44 @@
 .arrow {
     width: 12px;
     margin: 20px;
-    opacity: 0.3;
+    opacity: 0.5;
+    cursor: pointer;
+    
 }
+
+.arrow:hover {
+    opacity: 10;
+}
+
+.SkillsCardList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    scroll-behavior: smooth;
+   scroll-snap-type:inline mandatory;
+   overscroll-behavior-inline: contain;
+}
+
+
+
+.snaps {
+    scroll-snap-type: inline mandatory;
+}
+
+.EmptyBox {
+    /* background-color: red; */
+    width: 100px;
+    height: 100%;
+   
+    
+
+}
+
+
+
