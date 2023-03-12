@@ -180,7 +180,7 @@
 
   .Home {
     margin: 0px 0px;
-    margin-top: 110px;
+    margin-top: 130px;
     width: 100%;
     height: max-content;
     /* background-color: green; */
@@ -229,7 +229,7 @@
  flex-direction: column;
  width: 100%;
  /* background-color: red; */
- margin-bottom: 20px;
+ margin-bottom: 30px;
 }
 
 .SelfTitle {
