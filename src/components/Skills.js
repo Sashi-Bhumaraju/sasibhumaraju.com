@@ -11,13 +11,14 @@ import java from '../assets/skill/java.svg';
 import js from '../assets/skill/js.svg';
 import mysql from '../assets/skill/mysql.svg';
 import postman from '../assets/skill/postman.svg';
+import dsa from '../assets/skill/dsa.svg'
 import react from '../assets/skill/react.svg';
 import spring from '../assets/skill/spring.svg';
 import left from '../assets/left.svg';
 import right from '../assets/right.svg';
 
-  const icons = [react,js,html,css,"-",java,spring,mysql,firebase,"-",c,git,postman]
-  const skillName = ['React','Js','Html','Css','-','Java','SpringBoot','Mysql','Firebase','-','C','Git','postman'];
+  const icons = [dsa,react,js,html,css,"-",java,spring,mysql,firebase,"-",c,git,postman]
+  const skillName = ['DSA', 'ReactJs','JavaScript','Html','Css','-','Java','SpringBoot','Mysql','Firebase','-','C','Git','postman'];
   const cardData = icons.map((v,i)=>{
     return { "icon" : v, "name" : skillName[i] };
   })

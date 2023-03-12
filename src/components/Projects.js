@@ -1,12 +1,38 @@
 import React from 'react';
+import './Projects.css';
+import a from '../assets/modified/botanica.png';
+import b from '../assets/modified/guarage.png';
+import c from '../assets/modified/lights.png';
+import d from '../assets/modified/pokeman.png';
+import e from '../assets/modified/roll.png';
+import f from '../assets/modified/silpa.png';
+import g from '../assets/modified/sorting.png';
 
-import './Projects.css'
+const projectImages = [f,a,g,c,d,e,b];
 
  function Projects () {
     return(
         <div className='Projects'>
-          
-            Projects
+            <div className='ProjectsHeading'>My <span style={{color:"#000000"}}>Works</span> </div>
+            <div className='ProjectsSubHeading'> These are Web and Backend applications using a combination of ReactJS, Spring Boot, and JavaScript. My projects are designed to be efficient, user-friendly, and scalable, utilizing the latest tools and technologies to create responsive and interactive web applications.  </div>
+            <div className='ProjectsList'>
+                 {projectImages.map((image)=>{
+                    return  <div className="ProjectCard">
+                    <div className='ProjectCardText'>
+                        <div className='ProjectName'> Botanica </div>
+                        <div className='ProjectDescription'> A real estate website is a platform where users can search for properties and connect with real estate agents. The website should have features such as property listings, search filters, agent profiles, and contact forms. </div>
+                        <div className='ProjectCardButtons'>
+                            <div className='Git'> GitHub </div>
+                            <div className='Explore'> Explore  </div>
+                        </div>
+                    </div>
+                    <img className='ProjectsImage' src={image}></img>
+                 </div>
+                 })
+                 }
+                
+            </div>
+           
         </div>
     )
  }

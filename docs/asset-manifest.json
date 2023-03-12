@@ -1,12 +1,20 @@
 {
   "files": {
-    "main.css": "/sasibhumaraju.com/static/css/main.7a799652.css",
-    "main.js": "/sasibhumaraju.com/static/js/main.ab3b0792.js",
+    "main.css": "/sasibhumaraju.com/static/css/main.6a613020.css",
+    "main.js": "/sasibhumaraju.com/static/js/main.d711cc08.js",
     "static/js/787.21d17fcb.chunk.js": "/sasibhumaraju.com/static/js/787.21d17fcb.chunk.js",
+    "static/media/silpa.png": "/sasibhumaraju.com/static/media/silpa.aff75de8068a45e31616.png",
+    "static/media/guarage.png": "/sasibhumaraju.com/static/media/guarage.78cc37c0d11438504c27.png",
+    "static/media/botanica.png": "/sasibhumaraju.com/static/media/botanica.015eccb11d1de3b6e350.png",
+    "static/media/sorting.png": "/sasibhumaraju.com/static/media/sorting.578252ad7cacd4c43525.png",
+    "static/media/lights.png": "/sasibhumaraju.com/static/media/lights.dbd7200b64a406a08d03.png",
+    "static/media/pokeman.png": "/sasibhumaraju.com/static/media/pokeman.7060f73869a054b6b70b.png",
+    "static/media/roll.png": "/sasibhumaraju.com/static/media/roll.616526c296dd9a938d26.png",
     "static/media/sasibhumaraju.jpeg": "/sasibhumaraju.com/static/media/sasibhumaraju.9d822fd58bbfddceb873.jpeg",
     "static/media/coffe.svg": "/sasibhumaraju.com/static/media/coffe.d594a969cb529b790bc69f6a895b29e4.svg",
     "static/media/postman.svg": "/sasibhumaraju.com/static/media/postman.54593840f64f836129de5a63f9282990.svg",
     "static/media/mysql.svg": "/sasibhumaraju.com/static/media/mysql.de1f441d77fea35c2d6e1338f3cc540a.svg",
+    "static/media/dsa.svg": "/sasibhumaraju.com/static/media/dsa.ac18b64936c16e54d21f52f22ee17d7a.svg",
     "static/media/github.svg": "/sasibhumaraju.com/static/media/github.b157059430808fec3f4e211fdef4e1ed.svg",
     "static/media/twitter.svg": "/sasibhumaraju.com/static/media/twitter.1268b6460699a17c9a3614adddce700c.svg",
     "static/media/java.svg": "/sasibhumaraju.com/static/media/java.a751bad6c81431ab4dd6fa6632a65540.svg",
@@ -26,12 +34,12 @@
     "static/media/right.svg": "/sasibhumaraju.com/static/media/right.900f15a98937c875e6fa6bc8de335fdc.svg",
     "static/media/left.svg": "/sasibhumaraju.com/static/media/left.59f25f715b964eab9fe66b6eb0ab35a3.svg",
     "static/media/react.svg": "/sasibhumaraju.com/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.7a799652.css.map": "/sasibhumaraju.com/static/css/main.7a799652.css.map",
-    "main.ab3b0792.js.map": "/sasibhumaraju.com/static/js/main.ab3b0792.js.map",
+    "main.6a613020.css.map": "/sasibhumaraju.com/static/css/main.6a613020.css.map",
+    "main.d711cc08.js.map": "/sasibhumaraju.com/static/js/main.d711cc08.js.map",
     "787.21d17fcb.chunk.js.map": "/sasibhumaraju.com/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a799652.css",
-    "static/js/main.ab3b0792.js"
+    "static/css/main.6a613020.css",
+    "static/js/main.d711cc08.js"
   ]
 }
