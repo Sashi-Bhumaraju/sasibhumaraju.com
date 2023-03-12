@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sasibhumaraju.com/static/css/main.ebedf943.css",
+    "main.css": "/sasibhumaraju.com/static/css/main.03b43708.css",
     "main.js": "/sasibhumaraju.com/static/js/main.ab3b0792.js",
     "static/js/787.21d17fcb.chunk.js": "/sasibhumaraju.com/static/js/787.21d17fcb.chunk.js",
     "static/media/sasibhumaraju.jpeg": "/sasibhumaraju.com/static/media/sasibhumaraju.9d822fd58bbfddceb873.jpeg",
@@ -26,12 +26,12 @@
     "static/media/right.svg": "/sasibhumaraju.com/static/media/right.900f15a98937c875e6fa6bc8de335fdc.svg",
     "static/media/left.svg": "/sasibhumaraju.com/static/media/left.59f25f715b964eab9fe66b6eb0ab35a3.svg",
     "static/media/react.svg": "/sasibhumaraju.com/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.ebedf943.css.map": "/sasibhumaraju.com/static/css/main.ebedf943.css.map",
+    "main.03b43708.css.map": "/sasibhumaraju.com/static/css/main.03b43708.css.map",
     "main.ab3b0792.js.map": "/sasibhumaraju.com/static/js/main.ab3b0792.js.map",
     "787.21d17fcb.chunk.js.map": "/sasibhumaraju.com/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebedf943.css",
+    "static/css/main.03b43708.css",
     "static/js/main.ab3b0792.js"
   ]
 }
