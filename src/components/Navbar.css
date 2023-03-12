@@ -12,7 +12,8 @@
   backdrop-filter: blur(10px);
   line-height: 21px;
   background-color: rgba(238, 238, 238,0.5);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* background-color: white; */
   z-index: 100;
   /* filter: blur(1px); */
   /* background-color: rgba(0, 0, 0,0.1); */
