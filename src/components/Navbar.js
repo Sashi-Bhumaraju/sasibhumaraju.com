@@ -11,19 +11,19 @@ function Navbar () {
 
 const links =  <div className='NavItems'>
 
-<div className='Navitem'> <NavLink  to="Home"
+<div className='Navitem'> <NavLink  to="/"
         className={({isActive})=>{
             return (isActive)? 'active' : 'notActive'
         }}
         >Home</NavLink></div>
 
- <div className='Navitem' > <NavLink to="About"
+ <div className='Navitem' > <NavLink to="/About"
         className={({isActive})=>{
             return (isActive)? 'active' : 'notActive'
         }}
         >About</NavLink></div>
 
-<div className='Navitem'> <NavLink to="Work"
+<div className='Navitem'> <NavLink to="/Work"
          className={({isActive})=>{
             return (isActive)? 'active' : 'notActive'
         }}
@@ -33,19 +33,19 @@ const links =  <div className='NavItems'>
 
 const links2 =  <div className='NavItems2'>
 
-<div className='Navitem'> <NavLink  to="Home"
+<div className='Navitem'> <NavLink  to="/"
         className={({isActive})=>{
             return (isActive)? 'active' : 'notActive'
         }}
         >Home</NavLink></div>
 
- <div className='Navitem' > <NavLink to="About"
+ <div className='Navitem' > <NavLink to="/About"
         className={({isActive})=>{
             return (isActive)? 'active' : 'notActive'
         }}
         >About</NavLink></div>
 
-<div className='Navitem'> <NavLink to="Work"
+<div className='Navitem'> <NavLink to="/Work"
          className={({isActive})=>{
             return (isActive)? 'active' : 'notActive'
         }}

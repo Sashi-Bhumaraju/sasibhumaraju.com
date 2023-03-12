@@ -18,6 +18,8 @@
   /* filter: blur(1px); */
   /* background-color: rgba(0, 0, 0,0.1); */
   /* background-color: red; */
+  border-bottom:2px  rgba(238, 238, 238,0.8) solid;
+
 }
 
 .NavBarBox {
