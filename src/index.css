@@ -5,17 +5,25 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Trebuchet MS", Tahoma, sans-serif;
-  font-family: "Segoe UI", Arial, sans-serif;
+  /* font-family: "Trebuchet MS", Tahoma, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif; */
   /* background-color: #181d17;
   background-color: rgb(13,17,23); */
-  background-color: #EEEEEE;
+ 
   font-family: 'Lato';
   /* font-size: 18px; */
+  scroll-behavior: smooth;
+  scroll-snap-type:inline mandatory;
+  transition: scroll-behavior 10s;
   /* font-family: 'Open Sans'; */
+  
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
 }
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+

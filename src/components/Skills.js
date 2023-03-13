@@ -54,10 +54,10 @@ import right from '../assets/right.svg';
     return(
         <div className='Skills'>
             <div className='SkillsTitle'> About Me and My Skills  </div>
-            <div className='SkillsAboutMe'> As a <b> passionate </b> and driven computer science and engineering student with experience in various <b>programming languages and technologies.</b> My passion for <b> mobile development</b> and interface design started with developing an Android app using <b> Flutter </b> and <b>Android Studio.</b> I have honed my problem-solving skills in <b> data structures and algorithms</b> through online resources. I have also <b> developed</b> web projects using <b>React JS </b>and <b>Java Spring Boot </b>with dynamic and intuitive interfaces. I am a versatile and motivated developer committed to producing <b> efficient solutions </b> to complex problems.</div>
+            <div className='SkillsAboutMe'> As a  passionate  and driven computer science and engineering student with experience in various programming languages and technologies. My passion for  mobile development and interface design started with developing an Android app using  Flutter  and Android Studio. I have honed my problem-solving skills in  data structures and algorithms through online resources. I have also  developed web projects using React JS and Java Spring Boot with dynamic and intuitive interfaces. I am a versatile and motivated developer committed to producing  efficient solutions  to complex problems.</div>
 
             <div className='SkillsNames' >
-              <img className='arrow' src={left} onClick={leftScroll}></img>
+              <img className='arrow-left arrow' src={left} onClick={leftScroll}></img>
                <div id="Slider" className='SkillsCardList'>
                   {cardData.map((v,i)=>{
                    return <div key={i}  className='SkillsNamesCard' > 
@@ -66,7 +66,7 @@ import right from '../assets/right.svg';
                               </div>
                     })}  
                 </div>
-              <img className='arrow' src={right} onClick={rightScroll}></img>         
+              <img className='arrow-right arrow' src={right} onClick={rightScroll}></img>         
            </div>
       </div>
     )

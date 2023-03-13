@@ -35,14 +35,14 @@ function Home () {
              <Lottie options={defaultOptions}  height={500} width={500} /> 
 
     <div className="card-overlay">
-    <p className="card-text"> This is SasiBhumaraju. I'm a React JS front-end developer and Java Spring Boot back-end developer with experience designing and implementing web applications. </p>
+    <p className="card-text"> This is SasiBhumaraju. Do not disturb me.</p>
   </div>
              </div>
           </div>
             <div className='Self'>
              <div className='SelfTitle'>
              <div>  <span className='SelfTitleA'>Front end</span> <span className='SelfTitleB'>Engineer</span> </div>
-               <div className='SelfBody'>Back End Developer</div>
+               <div className='SelfBody'>REACTJS JAVASCRIPT HTML CSS JAVA</div>
             </div>   
             
             <div className='SocialIcons'>

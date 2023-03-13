@@ -7,6 +7,7 @@ import d from '../assets/projects/pokeman.png';
 // import e from '../assets/projects/roll.png';
 import f from '../assets/projects/silpa.png';
 import g from '../assets/projects/sorting.png';
+import eRight from '../assets/exploreright.svg';
 
 const projectImages = [f,a,g,c,d,b];
 
@@ -23,7 +24,7 @@ const projectImages = [f,a,g,c,d,b];
                         <div className='ProjectDescription'> A real estate website is a platform where users can search for properties and connect with real estate agents. The website should have features such as property listings, search filters, agent profiles, and contact forms. </div>
                         <div className='ProjectCardButtons'>
                             <div className='Git'> GitHub </div>
-                            <div className='Explore'> Explore  </div>
+                            <div className='Explore'> Explore <img className='ExploreIcon' src={eRight}></img> </div>
                         </div>
                     </div>
                     <img className='ProjectsImage' src={image}></img>
