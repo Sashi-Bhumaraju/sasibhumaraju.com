@@ -8,12 +8,13 @@
     justify-content: space-around;
     align-items: center;
     color: white;
-    background-color: red;
+    /* background-color: #DC5F00; */
     background-color: #EEEEEE;
     flex-direction: column;
     padding-top: 70px;
     padding-bottom: 70px;
     /* background-image: linear-gradient(to right, #EEEEEE , #DC5F00); */
+    border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid;
 }
 
 .SkillsTitle {
@@ -28,6 +29,7 @@
     font-weight: 100;
     text-align: left;
     margin: 50px 100px 50px 100px;
+    width: calc(100vw - 10%);
     line-height: 22px;
     font-weight: 100;
     word-spacing: 1px;
@@ -37,7 +39,7 @@
 }
 
 .SkillsNames {
-     height: 200px;
+     height: 350px;
      /* width: 100vw; */
      width: calc(100vw - 10%);
      color: black;
@@ -49,37 +51,39 @@
     justify-content: center;
     overflow: visible;
    
+   
 }
 
 .SkillsNamesCard {
     width: 110px;
     height: 145px;
     background-color: rgb(255, 255, 255);
-    margin: 8px;
-    border-radius: 5px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    box-shadow: #DC5F00 0px 4px 12px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  
+    /* margin: 8px; */
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
+    border: 0.5px  rgba(238, 238, 238,0.8) solid;
     color: #CF0A0A;
 }
 
 .SkillsNamesCard:hover {
     scale: 1.1;
-    transition: scale 0.3s;
+    transition: scale 0.9s;
     cursor: pointer;
+   
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .SkillsNamesCardImage {
     width: 40px;
     height: 40px;
     object-fit:fill;
-    background-color:#EEEEEE;
+    /* border: 0.5px  rgba(238, 238, 238,0.8) solid; */
+    /* background-color:#EEEEEE; */
     /* filter: blur(8px); */
     backdrop-filter: blur(10px);
     padding: 25px;
@@ -114,13 +118,17 @@
     overflow-x: scroll;
     overflow-y: hidden;
     height: 100%;
-    /* justify-content: center; */
     align-items: center;
     scroll-behavior: smooth;
    scroll-snap-type:inline mandatory;
    overscroll-behavior-inline: contain;
    -ms-overflow-style: none;  /* IE and Edge */
    scrollbar-width: none;  
+  padding-left: auto;
+  padding-right: auto;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+
 }
 
 .SkillsCardList::-webkit-scrollbar {
@@ -149,8 +157,8 @@
         justify-content: space-around;
         align-items: center;
         color: white;
-        background-color: red;
-        background-color: #EEEEEE;
+        /* background-color: red; */
+        /* background-color: #EEEEEE; */
         flex-direction: column;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -197,12 +205,12 @@
     .SkillsNamesCard {
         width: 80px;
         height: 100px;
-        background-color: rgb(255, 255, 255);
-        margin: 3px;
-        border-radius: 5px;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        /* background-color: rgb(255, 255, 255); */
+        /* margin: 3px; */
+        /* border-radius: 5px; */
+        /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         box-shadow: #DC5F00 0px 4px 12px;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
       
         display: flex;
         /* justify-content: center; */
@@ -213,16 +221,16 @@
     }
     
     .SkillsNamesCard:hover {
-        scale: 1.1;
+        /* scale: 1.1;
         transition: scale 0.3s;
-        cursor: pointer;
+        cursor: pointer; */
     }
     
     .SkillsNamesCardImage {
         width: 25px;
         height: 25px;
         object-fit:fill;
-        background-color:#EEEEEE;
+        /* background-color:#EEEEEE; */
         /* filter: blur(8px); */
         backdrop-filter: blur(10px);
         padding: 20px;
@@ -265,6 +273,7 @@
        overscroll-behavior-inline: contain;
        -ms-overflow-style: none;  /* IE and Edge */
        scrollbar-width: none;  
+       padding: 0px 10px 0px 10px;
     }
     
     .SkillsCardList::-webkit-scrollbar {

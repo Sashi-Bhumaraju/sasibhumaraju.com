@@ -1,6 +1,7 @@
 .Home {
-    margin: 100px 0px;
+    margin:100px 0px 0px 0px;
     width: 100%;
+    padding-bottom: 100px;
     height: max-content;
     min-height: 500px;
     display: flex;
@@ -11,8 +12,11 @@
     justify-content: space-evenly;
     /* float: right; */
     color: rgb(0, 0, 0);
+    border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid;
     /* background-color: red; */
 }
+
+
 
 
 .HomeImage{

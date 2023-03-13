@@ -17,8 +17,8 @@ import spring from '../assets/skill/spring.svg';
 import left from '../assets/left.svg';
 import right from '../assets/right.svg';
 
-  const icons = [dsa,react,js,html,css,"-",java,spring,mysql,firebase,"-",c,git,postman]
-  const skillName = ['DSA', 'ReactJs','JavaScript','Html','Css','-','Java','SpringBoot','Mysql','Firebase','-','C','Git','postman'];
+  const icons = [dsa,react,js,html,css,java,spring,mysql,firebase,c,git,postman]
+  const skillName = ['DSA', 'ReactJs','JavaScript','Html','Css','Java','SpringBoot','Mysql','Firebase','C','Git','postman'];
   const cardData = icons.map((v,i)=>{
     return { "icon" : v, "name" : skillName[i] };
   })
@@ -60,8 +60,7 @@ import right from '../assets/right.svg';
               <img className='arrow' src={left} onClick={leftScroll}></img>
                <div id="Slider" className='SkillsCardList'>
                   {cardData.map((v,i)=>{
-                    if(v.icon === "-") return <div key={i} className='EmptyBox'>  </div>
-                    else return <div key={i}  className='SkillsNamesCard' > 
+                   return <div key={i}  className='SkillsNamesCard' > 
                                 <img className='SkillsNamesCardImage' src={v.icon}/>  
                                 <div className='SkillsNamesCardText'> {v.name}</div>
                               </div>
