@@ -9,6 +9,8 @@ import f from '../assets/projects/silpa.png';
 import g from '../assets/projects/sorting.png';
 import eRight from '../assets/exploreright.svg';
 
+import Data from '../Data/Data'
+
 const projectImages = [f,a,g,c,d,b];
 
  function Projects () {
@@ -17,17 +19,17 @@ const projectImages = [f,a,g,c,d,b];
             <div className='ProjectsHeading'>My <span style={{color:"#000000"}}>Works</span> </div>
             <div className='ProjectsSubHeading'> These are Web and Backend applications using a combination of ReactJS, Spring Boot, and JavaScript. My projects are designed to be efficient, user-friendly, and scalable, utilizing the latest tools and technologies to create responsive and interactive web applications.  </div>
             <div className='ProjectsList'>
-                 {projectImages.map((image)=>{
-                    return  <div className="ProjectCard">
+                 {Data.map((project,i)=>{
+                    return  <div className="ProjectCard" key={i}>
                     <div className='ProjectCardText'>
-                        <div className='ProjectName'> Botanica </div>
-                        <div className='ProjectDescription'> A real estate website is a platform where users can search for properties and connect with real estate agents. The website should have features such as property listings, search filters, agent profiles, and contact forms. </div>
+                        <div className='ProjectName'> {project.name} </div>
+                        <div className='ProjectDescription'> {project.description} </div>
                         <div className='ProjectCardButtons'>
                             <div className='Git'> GitHub </div>
                             <div className='Explore'> Explore <img className='ExploreIcon' src={eRight}></img> </div>
                         </div>
                     </div>
-                    <img className='ProjectsImage' src={image}></img>
+                    <img className='ProjectsImage' src={project.image}></img>
                  </div>
                  })
                  }

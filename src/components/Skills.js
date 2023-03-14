@@ -56,11 +56,13 @@ import right from '../assets/right.svg';
             <div className='SkillsTitle'> About Me and My Skills  </div>
             <div className='SkillsAboutMe'> As a  passionate  and driven computer science and engineering student with experience in various programming languages and technologies. My passion for  mobile development and interface design started with developing an Android app using  Flutter  and Android Studio. I have honed my problem-solving skills in  data structures and algorithms through online resources. I have also  developed web projects using React JS and Java Spring Boot with dynamic and intuitive interfaces. I am a versatile and motivated developer committed to producing  efficient solutions  to complex problems.</div>
 
+          
             <div className='SkillsNames' >
               <img className='arrow-left arrow' src={left} onClick={leftScroll}></img>
                <div id="Slider" className='SkillsCardList'>
                   {cardData.map((v,i)=>{
                    return <div key={i}  className='SkillsNamesCard' > 
+                                
                                 <img className='SkillsNamesCardImage' src={v.icon}/>  
                                 <div className='SkillsNamesCardText'> {v.name}</div>
                               </div>

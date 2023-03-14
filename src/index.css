@@ -10,13 +10,21 @@ body {
   /* background-color: #181d17;
   background-color: rgb(13,17,23); */
  
-  font-family: 'Lato';
+ 
   /* font-size: 18px; */
   scroll-behavior: smooth;
   scroll-snap-type:inline mandatory;
   transition: scroll-behavior 10s;
   /* font-family: 'Open Sans'; */
-  
+  font-family: 'Roboto';
+  /* font-family: 'Source Sans Pro';
+  font-family: 'Lato';
+  font-family: 'Slabo 27px';
+  font-family: 'Raleway';
+  font-family: "Segoe UI"; */
+    /* font-family: 'Open Sans'; */
+    /* font-family: 'Montserrat'; */
+    font-family: 'Lato';
   /* display: flex;
   justify-content: center; */
   /* align-items: center; */

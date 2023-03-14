@@ -1,8 +1,9 @@
 .Page {
-    max-width: 1200px;
+    max-width: 1300px;
+    width: calc(100% - 5%);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     flex-direction: column;
     position: relative;
     overflow: hidden;

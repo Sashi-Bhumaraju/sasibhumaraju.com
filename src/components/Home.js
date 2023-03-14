@@ -35,14 +35,14 @@ function Home () {
              <Lottie options={defaultOptions}  height={500} width={500} /> 
 
     <div className="card-overlay">
-    <p className="card-text"> This is SasiBhumaraju. Do not disturb me.</p>
+    <p className="card-text"> This is Sasi Bhumaraju. Do not disturb me.</p>
   </div>
              </div>
           </div>
             <div className='Self'>
              <div className='SelfTitle'>
              <div>  <span className='SelfTitleA'>Front end</span> <span className='SelfTitleB'>Engineer</span> </div>
-               <div className='SelfBody'>REACTJS JAVASCRIPT HTML CSS JAVA</div>
+               <div className='SelfBody'>-- REACTJS --</div>
             </div>   
             
             <div className='SocialIcons'>
