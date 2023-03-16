@@ -1,35 +1,18 @@
 
 
 .Skills {
-    /* width: 100%;
-    height: max-content;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    flex-direction: column;
-    background-image: linear-gradient(to right, #EEEEEE , #DC5F00);
-    border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid; */
-    /* padding: 100px; */
-    background-color: rgb(238, 47, 76);
+
     min-height: 100vh;
     position: relative;
-    /* padding: 240px 200px 180px; */
     background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg');
+    background-image: url('https://images.pexels.com/photos/4723038/pexels-photo-4723038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover; 
     flex-direction: column;
-    /* -webkit-box-pack: justify; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
     justify-content: center;
-   display: flex;
-    /* align-items: center; */
-    /* background-color: red; */
-   
+    display: flex;
     width: calc(100% - 24%);
     padding: 100px 12%;
-  object-fit:fill;
+    object-fit:fill;
 }
 
 .SkillsTitle {
@@ -40,13 +23,12 @@
     /* margin: 50px 100px 0px 100px; */
     text-align: left;
     /* width: calc(100% - 10%); */
-    max-width: 670px;
+    max-width: 800px;
     font-size: 100px;
     letter-spacing: -3.15px;
     line-height: 96px;
-    line-height: 96px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 40px;
+  
 }
 
 .SkillsAboutMe {
@@ -56,10 +38,7 @@
     font-size: 18px;
     line-height: 28px;
     white-space: pre-line;
-    max-width: 630px;
-    /* margin-bottom: 40px; */
-    max-width: 630px;
-    /* margin-top: 60px; */
+    max-width: 850px;
     font-weight: bold;
 }
 
@@ -75,14 +54,14 @@
     border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
-    margin-top: 58px;
+    margin-top: 40px;
     display: inline-flex;
     font-size: 24px;
     letter-spacing: 0.4px;
     line-height: 30px;
     border-radius: 40px;
     padding: 20px 65px;
-    margin-bottom: 50px;
+    /* margin-bottom: 40px; */
   }
 
   .Resume:hover{
@@ -131,7 +110,7 @@
     letter-spacing: 0px;
     line-height: 38px;
     white-space: pre-line;
-    font-weight: 700;
+    font-weight: 400;
     
 }
 
@@ -154,7 +133,7 @@
 }
 .SkillsNamesCardText {
     font-size: 19px;
-    font-weight: 500;
+    font-weight: bold;
     margin-right: 30px;
     line-height: 40px;
 }

@@ -22,19 +22,19 @@
   -webkit-box-pack: justify;
   justify-content: space-between;
   width: 100%;
-  height: 110px;
+  height: 80px;
   /* transform: translateY(-110%); */
   transition: transform 0.3s ease 0s;
   z-index: 200;
 
   position: fixed;
-    top: 0px;
+    /* top: 0px;
     width: 100%;
     z-index: 1000;
-    background: rgba(22, 21, 23, 0.2);
+    background: rgba(22, 21, 23, 0.8);
     box-shadow: rgba(22, 21, 23, 0.1) 0px 0px 15px 0px;
     height: 80px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px); */
   /* padding: 0px 200px; */
   /* padding: 0px 50px; */
   /* background-color: rgba(238, 238, 238,0.5); */

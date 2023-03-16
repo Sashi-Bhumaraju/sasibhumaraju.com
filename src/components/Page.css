@@ -1,12 +1,7 @@
 .Page {
     max-width: 1400px;
-    width: calc(100% - 0%);
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    /* border-right: 2.5px  rgba(238, 238, 238,0.8) solid;
-    border-left: 2.5px  rgba(238, 238, 238,0.8) solid; */
 }
