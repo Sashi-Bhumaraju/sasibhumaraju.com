@@ -9,7 +9,16 @@ function Navbar () {
            }
     }
 
-const links =  <div className='NavItems'>
+const nav = document.querySelector('#nav');
+
+const onScroll = () => {
+    const sp = 100;
+    nav.classList.toggle("down",sp > 80);
+}
+
+document.addEventListener("scroll",onScroll,{passive: true});
+
+const links =  <div  id='nav' className='NavItems'>
 
 <div className='Navitem'> <NavLink  to="/"
         className={({isActive})=>{
@@ -63,7 +72,7 @@ const links2 =  <div className='NavItems2'>
            
                  {links}
 
-            <div className='Resume'>Resume</div>
+            {/* <div className='Resume'>Resume</div> */}
             </div> 
             {links2}
         </div>

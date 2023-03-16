@@ -24,10 +24,15 @@ body {
   font-family: "Segoe UI"; */
     /* font-family: 'Open Sans'; */
     /* font-family: 'Montserrat'; */
-    font-family: 'Lato';
+   
+    /* font-family: 'gilroy-bold'; */
+    /* font:18px 'Gilroy', sans-serif; */
+    /* font-family: 'Gilroy-Bold', sans-serif; */
   /* display: flex;
+  
   justify-content: center; */
   /* align-items: center; */
+  font-family: 'Gilroy', sans-serif;
 }
 
 /* code {

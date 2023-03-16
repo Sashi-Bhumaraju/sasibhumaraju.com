@@ -1,37 +1,73 @@
 .Projects {
-    width: 100%;
+    /* width: 100%;
     height: max-content;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding-bottom: 150px;
-    border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid;
-   
-  
+    padding-top: 150px;
+     */
+    /* border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid; */
+    /* background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg'); */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    align-items: left;
+    width: calc(100% - 24%);
+    padding: 100px 12%;
+    background-color: rgb(26, 97, 233);
+    background-color: rgb(90, 30, 203);
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg');
+
 }
 
 .ProjectsHeading {
-    font-size: 40px;
+    /* font-size: 40px;
     font-weight: bold;
     color: #CF0A0A;
     margin: 50px 0px 0px 0px;
     text-align: left;
-    width: calc(100% - 10%);  
+    width: calc(100% - 10%);   */
     /* background-color: #CF0A0A;  */
+    font-size: 100px;
+    /* font-family: gilroy-bold; */
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    opacity: 0.9;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .ProjectsSubHeading {
-    color:#000000;
+    /* color:#000000;
     font-weight: 100;
     text-align: left;
     margin: 50px 0px 50px 0px;
     line-height: 22px;
     font-weight: 100;
     word-spacing: 1px;
-    width: calc(100% - 10%);   
+    width: calc(100% - 10%);    */
     /* background-color: #CF0A0A; */
+
+    color: #ffffff;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    white-space: pre-line;
+    max-width: 630px;
+    /* margin-bottom: 40px; */
+    max-width: 630px;
+    /* margin-top: 60px; */
+    font-weight: bold;
+    margin-bottom: 50px;
 }
+
 
 .ProjectsList {
     display: flex;
@@ -40,22 +76,23 @@
     align-items: center;
     /* background-color: #CF0A0A; */
     /* align-items: center; */
-    width: calc(100% - 10%);
+    width: calc(100% );
     flex-wrap: wrap;
+    margin-top: 100px;
 }
 .ProjectsImage {
     width: 35%;
     aspect-ratio: 4/2.2;
     object-fit: cover;
     /* background-color: #CF0A0A; */
-    margin: 20px;
+    margin: 25px;
     overflow: hidden;
     border-radius: 5px;
     /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
 }
 
 .ProjectCard {
-    width: calc(100% - 2%);
+    width: calc(100% );
     color:#000000;
     font-weight: 100;
     text-align: left;
@@ -69,7 +106,7 @@
     align-items: center;
     background-color: #ffffff;
     border-radius: 2px;
-    padding: 10px;
+    padding: 20px;
     height: max-content;
     border: 0.5px  rgba(238, 238, 238,0.8) solid;
    
@@ -78,7 +115,7 @@
 }
 
 .ProjectCard:hover{
-    transition: scale 0.9s;
+    transition: scale 0.2s;
     scale: 1.01;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -90,26 +127,27 @@
     height: max-content;
     /* align-items: center; */
     justify-content: space-around;
-    margin: 20px;
+    margin: 30px;
 }
 
 .ProjectName {
     font-size: 30px;
     font-weight: bold;
     color: #000000;
-    margin: 10px;
+    margin: 20px;
 
 }
 
 .ProjectDescription {
-    margin: 10px;
+    margin: 20px;
+    font-weight: 500;
 }
 .ProjectCardButtons {
     display: flex;
     /* justify-content: center; */
     flex-direction: row;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 
 .Git {

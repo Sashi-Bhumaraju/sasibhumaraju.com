@@ -1,48 +1,166 @@
 .Home {
-    margin:100px 0px 0px 0px;
-    width: 100%;
-    padding-bottom: 100px;
-    height: max-content;
-    min-height: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    /* position: relative; */
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    /* float: right; */
-    color: rgb(0, 0, 0);
-    border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid;
-    /* background-color: red; */
-    /* background-image: linear-gradient(#CF0A0A,white) */
+    margin:0px 0px 0px 0px; 
+    width: 100%; 
+    padding: 100px 0px; 
+    padding-bottom: 1px;
+    /* height: max-content;  */
+    /* min-height: 100vh;  */
+    display: flex; 
+    flex-wrap: wrap; 
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png');
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    color: rgb(0, 0, 0); 
+    /* border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid;  */
+}
+
+.LottieBorder {
+  /* fill: none; */
+  /* stroke: #ffffff;
+  stroke-width: 2px; */
+  /* stroke-dasharray: 2,2; */
+  /* stroke-linejoin: round; */
+  /* stroke-linejoin: round; */
+  /* border:rgb(255, 255, 255); 
+  border-width:5px; 
+  border-style:solid; */
+  /* filter : drop-shadow(0px 0px 4px #CF0A0A);
+  filter : drop-shadow(0px 0px 5px #ffffff); */
+
 }
 
 
+
+
+.Self{
+  /* height: 250px;  */
+  height: max-content;
+  line-height: 107px; 
+  display: flex; 
+  justify-content:center; 
+  flex-direction: column; 
+  align-items: center;
+  padding: 60px 50px 100px;
+}
+
+
+.SelfTitle {
+  /* float: left; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  font-size: 97px;
+  line-height: 107px;
+  margin-top: 100px;
+  }
+  
+  .SelfTitleA {     
+    /* margin-bottom: 100px; */
+    /* font-size: 45px; */
+    font-weight: bold;
+    color: #DC5F00;
+    color: #CF0A0A;
+    color: white;
+    margin:0px;
+    padding: 0%;
+    /* background-color: green; */
+  
+}
+
+.SelfTitleB {
+    /* margin: 0px 10px; */
+    /* font-size: 45px; */
+    font-weight: bold;
+    color: white;
+    /* color: #000000; */
+}
+
+
+.SelfBody {
+  font-weight: 600;
+  color: #000000;
+  word-spacing: 55px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  margin-top: 35px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+  /* background-color: red; */
+  
+}
+
+.SocialIcons {
+  margin-top: 35px;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  filter: invert();
+  /* background-color: red; */
+}
+
+.HireMe{
+  width: 100px;
+  color: white;
+  background-color: #CF0A0A;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 58px;
+  display: inline-flex;
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  padding: 20px 65px;
+ 
+}
+
+.HireMe:hover{
+  transition: transform 0.5s ease;
+  background-color: #DC5F00;
+  transform: scale(1.05);
+}
 
 
 .HomeImage{
-    
-    overflow: hidden;
-    /* background-color: red; */
-    /* margin-right: 10%; */
-    /* background-color: red; */
-    width: 310px;
-    display: flex;
-    justify-content: center;
-    /* position: relative; */
-    overflow: hidden;
-    border-radius: 10px;
-    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); */
-    transition: transform 0.3s ease;    
+    margin-top: 10px;
+  overflow: hidden;
+  width:100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+  overflow: hidden;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); */
+  transition: transform 0.3s ease;    
+
 }
 
+
 .HomeImageBody {
-    width: 470px;
-    height: 470px;
+    /* width: 600px;
+    height: 600px; */
     cursor: pointer;
     display: flex;
+    /* background-color: red; */
     justify-content: center;
     align-items: center;
+    /* position: relative; */
+    filter : drop-shadow(0px 0px 5px #ffffff);
   
 }
 
@@ -55,14 +173,6 @@
     z-index: 10000;
   } */
 
-.SocialIcons {
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    /* background-color: red; */
-}
 
 .Icon {
     width: 30px;
@@ -70,71 +180,12 @@
     margin-right: 12px;
     cursor: pointer;
 }
-.Self{
-    /* width: 40%;
-    margin-left: 10%; */
-  height: 250px;
-  /* height: max-content; */
-   display: flex;
-   justify-content:space-between;
-   /* justify-content: center; */
-   flex-direction: column;
-   /* background-color: red; */
-}
-.SelfTitle {
 
-/* float: left; */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items:flex-start;
 
-}
-.SelfTitleA {
-     
-   
-    margin-bottom: 100px;
-    font-size: 45px;
-    font-weight: bold;
-    color: #DC5F00;
-    color: #CF0A0A;
-    margin:0px;
-    padding: 0%;
-    /* background-color: green; */
-  
-}
-.SelfTitleB {
-    margin: 0px 10px;
-    font-size: 45px;
-    font-weight: bold;
-    color: #000000;
-}
-.SelfBody {
-    font-weight: 600;
-    color: #000000;
-    word-spacing: 55px;
-    font-size: 13px;
-    width: 100%;
-    /* background-color: red; */
-    
-}
 
-.HireMe{
-    width: 100px;
-    color: white;
-    background-color: #CF0A0A;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: bold;
-  }
 
-  .HireMe:hover{
-    transition: transform 0.5s ease;
-    background-color: #DC5F00;
-    transform: scale(1.05);
-  }
+
+
 
 
   .HomeImage:hover {
@@ -152,9 +203,9 @@ align-items:flex-start;
     transition: filter 0.3s ease;
   }
   
-  .HomeImage:hover .card-img {
+  /* .HomeImage:hover .card-img {
     filter: none;
-  }
+  } */
   
   .card-overlay {
     position: absolute;
@@ -172,10 +223,10 @@ align-items:flex-start;
     border-radius: 5px;
   }
   
-  .HomeImage:hover .card-overlay {
+  /* .HomeImage:hover .card-overlay {
     transform: translateY(0);
     visibility:visible;
-  }
+  } */
   
   .card-title {
     color: #000000;

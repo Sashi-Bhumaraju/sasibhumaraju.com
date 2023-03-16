@@ -30,34 +30,37 @@ function Home () {
 
     return(
         <div className='Home'>
-           <div className='HomeImage'>
-            <div className='HomeImageBody'>
-             <Lottie options={defaultOptions}  height={500} width={500} /> 
-
-    <div className="card-overlay">
-    <p className="card-text"> This is Sasi Bhumaraju. Do not disturb me.</p>
-  </div>
-             </div>
-          </div>
-            <div className='Self'>
+             
+             <div className='Self'>
              <div className='SelfTitle'>
-             <div>  <span className='SelfTitleA'>Front end</span> <span className='SelfTitleB'>Engineer</span> </div>
-               <div className='SelfBody'>-- REACTJS --</div>
-            </div>   
+                <div>  <span className='SelfTitleA'>Front end</span> <span className='SelfTitleB'>Engineer</span> </div>
+                  <div className='SelfBody'>ReactJs </div>
+             </div>   
             
-            <div className='SocialIcons'>
-                <img className='Icon' src={mail}></img>
-                <img className='Icon' src={linkedin}></img>
-                <img className='Icon' src={github}></img>
-                <img className='Icon' src={coffe}></img>
-                <img className='Icon' src={instagram}></img>
-                <img className='Icon' src={telegram}></img>
-                <img className='Icon' src={twitter}></img>
-            </div>
+              <div className='SocialIcons'>
+                  <img className='Icon' src={mail}></img>
+                  <img className='Icon' src={linkedin}></img>
+                  <img className='Icon' src={github}></img>
+                  <img className='Icon' src={coffe}></img>
+                  <img className='Icon' src={instagram}></img>
+                  <img className='Icon' src={telegram}></img>
+                  <img className='Icon' src={twitter}></img>
+              </div>
             <div className='HireMe'>Hire Me</div>
             </div>
            
+            <div className='HomeImage'>
+            <div className='HomeImageBody'>
+             
+               <Lottie  options={defaultOptions}  height={600} width={600} /> 
+           
+             
 
+                <div className="card-overlay">
+                <p className="card-text"> This is Sasi Bhumaraju. Do not disturb me.</p>
+              </div>
+             </div>
+          </div>
         
 
         </div>
