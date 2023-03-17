@@ -7,7 +7,7 @@
     /* min-height: 100vh;  */
     display: flex; 
     flex-wrap: wrap; 
-    /* background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png'); */
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png');
     flex-direction: column; 
     align-items: center; 
     justify-content: space-evenly; 
@@ -73,14 +73,14 @@
     /* margin: 0px 10px; */
     /* font-size: 45px; */
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     /* color: #000000; */
 }
 
 
 .SelfBody {
   font-weight: 600;
-  color: #000000;
+  color: #ffffff;
   word-spacing: 55px;
   font-size: 25px;
   font-weight: bold;
@@ -103,7 +103,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  /* filter: invert(); */
+  filter: invert();
   /* background-color: red; */
 }
 
