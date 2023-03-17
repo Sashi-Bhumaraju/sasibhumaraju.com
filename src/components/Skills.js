@@ -28,13 +28,13 @@ import spring from '../assets/skill/spring.svg';
   const skillsList = [
     <div className='SkillsNamesCardText' style={{color:'#5200a3'}} >DSA</div>,
     <div className='SkillsNamesCardText' style={{color:'#61DBFB'}} >ReactJs</div>,
-    <div className='SkillsNamesCardText' style={{color:'#F0DB4F'}} >Java <span style={{color:'#323330'}}>script</span></div>,
+    <div className='SkillsNamesCardText' style={{color:'#F0DB4F'}} >Java <span style={{color:'#FFFFFF'}}>script</span></div>,
     <div className='SkillsNamesCardText' style={{color:'#e34c26'}} >Html</div>,
     <div className='SkillsNamesCardText' style={{color:'#264de4'}} >CSS</div>,
     <div className='SkillsNamesCardText' style={{color:'orange'}} >Java</div>,
     <div className='SkillsNamesCardText' style={{color:'green'}} >SpringBoot</div>,
     <div className='SkillsNamesCardText' style={{color:'#f29111'}} >My  <span style={{color:' #00758f'}}>sql</span></div>,
-    <div className='SkillsNamesCardText' style={{color:'black'}} >Firebase</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >Firebase</div>,
     <div className='SkillsNamesCardText' style={{color:'blue'}} >C</div>,
     <div className='SkillsNamesCardText' style={{color:'#F1502F'}} >Git</div>,
     <div className='SkillsNamesCardText' style={{color:'red'}} >Postman</div>,
@@ -73,6 +73,7 @@ import spring from '../assets/skill/spring.svg';
     return(
       <>
         <div className='Skills'>
+            <div className='SkillsBackground'></div>
             <div className='SkillsTitle'> About Me and My Skills  </div>
             <div className='SkillsAboutMe'> As a  passionate  and driven computer science and engineering student with experience in various programming languages and technologies. My passion for  mobile development and interface design started with developing an Android app using  Flutter  and Android Studio. I have honed my problem-solving skills in  data structures and algorithms through online resources. I have also  developed web projects using React JS and Java Spring Boot with dynamic and intuitive interfaces. I am a versatile and motivated developer committed to producing  efficient solutions  to complex problems.</div>
             <div  className='SkillsCardList'>

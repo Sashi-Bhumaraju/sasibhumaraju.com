@@ -5,7 +5,7 @@
     min-height: 100vh;
     position: relative;
     /* background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg');
-    background-image: url('https://images.pexels.com/photos/4723038/pexels-photo-4723038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    background-image: url('https://images.pexels.com/photos/6783241/pexels-photo-6783241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
     background-size: cover; 
     flex-direction: column;
     justify-content: center;
@@ -13,13 +13,37 @@
     width: calc(100% - 24%);
     padding: 100px 12%;
     object-fit:fill;
+    /* border-bottom: 2px  rgba(238, 238, 238,0.5) solid; */
+    /* background: -webkit-radial-gradient(left top, rgb(154, 84, 235), rgb(97, 42, 211)); */
 }
+
+.SkillsBackground {
+     /* The image used */
+  background-image: url("https://images.pexels.com/photos/4119179/pexels-photo-4119179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  
+  /* Add the blur effect */
+  filter: blur(0px);
+  /* -webkit-filter: blur(8px); */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  object-fit:cover;
+  z-index: -100;
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .SkillsTitle {
     /* font-size: 40px; */
     font-weight: bold;
     color: #CF0A0A;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     /* margin: 50px 100px 0px 100px; */
     text-align: left;
     /* width: calc(100% - 10%); */
@@ -33,7 +57,7 @@
 
 .SkillsAboutMe {
 
-    color: #000000;
+    color: #ffffff;
     text-align: left;
     font-size: 18px;
     line-height: 28px;
