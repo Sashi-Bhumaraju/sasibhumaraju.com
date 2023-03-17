@@ -7,11 +7,11 @@
     /* min-height: 100vh;  */
     display: flex; 
     flex-wrap: wrap; 
-    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png');
+    /* background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png'); */
     flex-direction: column; 
     align-items: center; 
     justify-content: space-evenly; 
-    color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
     /* border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid;  */
 }
 
@@ -62,7 +62,7 @@
     font-weight: bold;
     color: #DC5F00;
     color: #CF0A0A;
-    color: white;
+    /* color: rgb(0, 0, 0); */
     margin:0px;
     padding: 0%;
     /* background-color: green; */
@@ -73,7 +73,7 @@
     /* margin: 0px 10px; */
     /* font-size: 45px; */
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     /* color: #000000; */
 }
 
@@ -90,7 +90,7 @@
   text-align: center;
   box-sizing: border-box;
   width: 100%;
-  color: white;
+  color: rgb(0, 0, 0);
   /* background-color: red; */
   
 }
@@ -103,7 +103,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  filter: invert();
+  /* filter: invert(); */
   /* background-color: red; */
 }
 
@@ -111,8 +111,8 @@
   width: 100px;
   color: white;
   background-color: #CF0A0A;
-  background-color: white;
-  color: #000000;
+  /* background-color: white; */
+  color: #ffffff;
   text-align: center;
   line-height: 40px;
   border-radius: 30px;

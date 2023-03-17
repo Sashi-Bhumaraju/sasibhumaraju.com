@@ -36,16 +36,16 @@
     height: 80px;
     backdrop-filter: blur(20px); */
   /* padding: 0px 200px; */
-  /* padding: 0px 50px; */
-  /* background-color: rgba(238, 238, 238,0.5); */
-  /* background-color: rgba(255, 255, 255, 0.8); */
+  padding: 0px 50px;
+  background-color: rgba(238, 238, 238,0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   /* background-color: white; */
  
   /* filter: blur(1px); */
   /* background-color: rgba(0, 0, 0,0.1); */
   /* background-color: red; */
-  /* border-bottom: 0.5px  rgba(238, 238, 238,0.8) solid; */
-  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+  border-bottom: 0.5px  rgba(238, 238, 238,0.8) solid;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 
 }
 
@@ -89,7 +89,7 @@
   /* color: #000000;  */
   text-decoration: none; 
   /* color: #000000; */
-  color: white;
+  color: rgb(0, 0, 0);
     text-decoration: none;
     height: 100%;
     display: flex;
@@ -113,7 +113,7 @@
   /* font-size: 1.5vw; */
   /* color: #ffa500;
   color:#DC5F00; */
-  /* color: #000000; */
+  color: #000000;
   /* background-color: #CF0A0A; */
 }
 

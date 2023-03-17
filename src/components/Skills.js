@@ -75,14 +75,25 @@ import spring from '../assets/skill/spring.svg';
         <div className='Skills'>
             <div className='SkillsTitle'> About Me and My Skills  </div>
             <div className='SkillsAboutMe'> As a  passionate  and driven computer science and engineering student with experience in various programming languages and technologies. My passion for  mobile development and interface design started with developing an Android app using  Flutter  and Android Studio. I have honed my problem-solving skills in  data structures and algorithms through online resources. I have also  developed web projects using React JS and Java Spring Boot with dynamic and intuitive interfaces. I am a versatile and motivated developer committed to producing  efficient solutions  to complex problems.</div>
+            <div  className='SkillsCardList'>
+                  {skillsList.map((v,i)=>{
+                  //  return <div key={i}  className='SkillsNamesCard' > 
+                                
+                  //               <img className='SkillsNamesCardImage' src={v.icon}/>  
+                  //               <div className='SkillsNamesCardText'> {v.name}</div>
+                  //             </div>
+                    return  v;
+                           
+                    })}  
+                </div>
             <div className='Resume' >Download Resume</div>
       </div>
       
-      <div className='SkillsNames' >
+      {/* <div className='SkillsNames' >
               <div className='SkillNamesHeading'>
                  <div className='SkillNamesHeadingText'> skills what i love most </div>
               </div>
-              {/* <img className='arrow-left arrow' src={left} onClick={leftScroll}></img> */}
+              <img className='arrow-left arrow' src={left} onClick={leftScroll}></img>
                <div  className='SkillsCardList'>
                   {skillsList.map((v,i)=>{
                   //  return <div key={i}  className='SkillsNamesCard' > 
@@ -94,8 +105,8 @@ import spring from '../assets/skill/spring.svg';
                            
                     })}  
                 </div>
-              {/* <img className='arrow-right arrow' src={right} onClick={rightScroll}></img>          */}
-           </div>
+              <img className='arrow-right arrow' src={right} onClick={rightScroll}></img>         
+           </div> */}
       </>
     )
  }

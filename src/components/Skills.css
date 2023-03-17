@@ -4,8 +4,8 @@
 
     min-height: 100vh;
     position: relative;
-    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg');
-    background-image: url('https://images.pexels.com/photos/4723038/pexels-photo-4723038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg');
+    background-image: url('https://images.pexels.com/photos/4723038/pexels-photo-4723038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
     background-size: cover; 
     flex-direction: column;
     justify-content: center;
@@ -19,11 +19,11 @@
     /* font-size: 40px; */
     font-weight: bold;
     color: #CF0A0A;
-    color: white;
+    color: rgb(0, 0, 0);
     /* margin: 50px 100px 0px 100px; */
     text-align: left;
     /* width: calc(100% - 10%); */
-    max-width: 800px;
+    /* max-width: 800px; */
     font-size: 100px;
     letter-spacing: -3.15px;
     line-height: 96px;
@@ -33,22 +33,22 @@
 
 .SkillsAboutMe {
 
-    color: #ffffff;
+    color: #000000;
     text-align: left;
     font-size: 18px;
     line-height: 28px;
     white-space: pre-line;
-    max-width: 850px;
+    /* max-width: 850px; */
     font-weight: bold;
 }
 
 .Resume{
     /* width: 100px; */
     width: max-content;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #CF0A0A;
-    background-color: white;
-    color: #000000;
+    /* background-color: white; */
+    color: #ffffff;
     text-align: center;
     line-height: 40px;
     border-radius: 30px;
@@ -123,7 +123,7 @@
     background-size: 100%;
     height: max-content;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     /* font-weight: bold; */
@@ -134,7 +134,7 @@
 .SkillsNamesCardText {
     font-size: 19px;
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 25px;
     line-height: 40px;
 }
 
