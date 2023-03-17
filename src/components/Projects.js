@@ -15,7 +15,7 @@ const projectImages = [f,a,g,c,d,b];
 
  function Projects () {
     return(
-        <div className='Projects'>
+        <div className='Projects' id="Work">
             <div className='ProjectsHeading'>My Works </div>
             <div className='ProjectsSubHeading'> These are Web and Backend applications using a combination of ReactJS, Spring Boot, and JavaScript. My projects are designed to be efficient, user-friendly, and scalable, utilizing the latest tools and technologies to create responsive and interactive web applications.  </div>
             <div className='ProjectsList'>

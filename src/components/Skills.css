@@ -7,12 +7,13 @@
     /* background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg');
     background-image: url('https://images.pexels.com/photos/6783241/pexels-photo-6783241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
     background-size: cover; 
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-    width: calc(100% - 24%);
-    padding: 100px 12%;
+    flex-direction: column; 
+    justify-content: center; 
+    display: flex; 
+    width: calc(100% - 24%); 
+    padding: 100px 12%; 
     object-fit:fill;
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png');
     /* border-bottom: 2px  rgba(238, 238, 238,0.5) solid; */
     /* background: -webkit-radial-gradient(left top, rgb(154, 84, 235), rgb(97, 42, 211)); */
 }
@@ -20,7 +21,7 @@
 .SkillsBackground {
      /* The image used */
   background-image: url("https://images.pexels.com/photos/4119179/pexels-photo-4119179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  
+  background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png');
   /* Add the blur effect */
   filter: blur(0px);
   /* -webkit-filter: blur(8px); */
@@ -155,6 +156,7 @@
     /* background-color: #CF0A0A; */
     
 }
+
 .SkillsNamesCardText {
     font-size: 19px;
     font-weight: bold;

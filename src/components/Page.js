@@ -8,7 +8,7 @@ import './Page.css'
 function Page () {
     return (
           <div className='Page'>
-             <Navbar></Navbar>
+            <Navbar></Navbar>
             <Home></Home>
             <Skills></Skills>
             <Projects></Projects>

@@ -1,23 +1,25 @@
 .Home {
-    margin:0px 0px 0px 0px; 
+    margin:0px; 
+    overflow: hidden;
     width: 100%; 
     padding: 100px 0px; 
-    padding-bottom: 1px;
-    /* height: max-content;  */
-    /* min-height: 100vh;  */
+    /* padding-bottom: 1px; */
     display: flex; 
-    flex-wrap: wrap; 
     background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png');
     flex-direction: column; 
     align-items: center; 
-    justify-content: space-evenly; 
+    justify-content: center; 
     color: rgb(255, 255, 255); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* border-bottom: 2.5px  rgba(238, 238, 238,0.8) solid;  */
+    /* background-image: url("https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
 
-   
 }
 
 .LottieBorder {
+  
   /* fill: none; */
   /* stroke: #ffffff;
   stroke-width: 2px; */
@@ -55,7 +57,8 @@
   align-items:center;
   font-size: 97px;
   line-height: 107px;
-  margin-top: 100px;
+  margin-top: 70px;
+
   }
   
   .SelfTitleA {     
@@ -81,8 +84,9 @@
 
 
 .SelfBody {
+
   font-weight: 600;
-  color: #ffffff;
+  color: #000000;
   word-spacing: 55px;
   font-size: 25px;
   font-weight: bold;
@@ -92,12 +96,14 @@
   text-align: center;
   box-sizing: border-box;
   width: 100%;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   /* background-color: red; */
-  
+
 }
 
 .SocialIcons {
+
+  
   margin-top: 35px;
   display:flex;
   flex-wrap: wrap;
@@ -107,6 +113,8 @@
   color: white;
   filter: invert();
   /* background-color: red; */
+
+
 }
 
 .HireMe{
@@ -120,7 +128,7 @@
   border-radius: 30px;
   cursor: pointer;
   font-weight: bold;
-  margin-top: 58px;
+  margin-top: 40px;
   display: inline-flex;
   font-size: 24px;
   letter-spacing: 0.4px;
@@ -138,7 +146,7 @@
 
 
 .HomeImage{
-    margin-top: 10px;
+    /* margin-top: 10px; */
   overflow: hidden;
   width:100%;
   height: 620px;

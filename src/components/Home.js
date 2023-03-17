@@ -13,7 +13,7 @@ import twitter from '../assets/twitter.svg';
 import lottie from '../assets/happy.json';
 import Lottie from 'react-lottie';
 //import bulb from '../assets/bulb.lottie';
-import Pagination from './Pagination';
+
 
 
 function Home () {
@@ -29,7 +29,7 @@ function Home () {
       };
 
     return(
-        <div className='Home'>
+        <div className='Home' id="/">
              
              <div className='Self'>
              <div className='SelfTitle'>

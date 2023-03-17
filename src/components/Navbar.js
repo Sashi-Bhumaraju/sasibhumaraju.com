@@ -1,42 +1,74 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 import tick from '../assets/tick.svg';
+import {Link} from 'react-scroll';
 function Navbar () {
-    const NavinkCSS = ({isActive}) => {
-           return {
-            color : isActive? 'green' : 'black'
-           }
-    }
+  
 
-const nav = document.querySelector('#nav');
+    const [isScrolled, setIsScrolled] = useState(true);
 
-const onScroll = () => {
-    const sp = 100;
-    nav.classList.toggle("down",sp > 80);
+    const [item1, setItem1] = useState(true);
+    const [item2, setItem2] = useState(false);
+    const [item3, setItem3] = useState(false);
+
+    // useEffect(() => {
+    //   window.addEventListener("scroll", handleScroll);
+    //   return () => window.removeEventListener("scroll", handleScroll);
+    // }, []);
+  
+    // const handleScroll = () => {
+    //   const position = window.pageYOffset;
+    //   if (position > 2*window.innerHeight) {
+    //     setIsScrolled(true);
+    //   } else {
+    //     setIsScrolled(false);
+    //   }
+    // };
+  
+
+function activateNavLink  (position)  {
+     switch(position) {
+        case 1: setItem1(true);
+                setItem2(false);
+                setItem3(false);
+                break;
+        case 2: setItem1(false);
+                setItem2(true);
+                setItem3(false);
+                break;
+        case 3: setItem1(false);
+                setItem2(false);
+                setItem3(true);
+                break;        
+     }
 }
 
-document.addEventListener("scroll",onScroll,{passive: true});
+
 
 const links =  <div  id='nav' className='NavItems'>
 
-<div className='Navitem'> <NavLink  to="/"
-        className={({isActive})=>{
-            return (isActive)? 'active' : 'notActive'
-        }}
-        >Home</NavLink></div>
+<div > <Link  to="/"
+       activeClass="active"
+       spy={true} smooth={true}
+    //    offset={80}
+       duration={500}
+        >Home</Link></div>
 
- <div className='Navitem' > <NavLink to="/About"
-        className={({isActive})=>{
-            return (isActive)? 'active' : 'notActive'
-        }}
-        >About</NavLink></div>
+ <div  > <Link to="About" 
+       
+        activeClass="active"
+        // offset={70}
+        spy={true} smooth={true}
+        duration={500}
+        >About</Link></div>
 
-<div className='Navitem'> <NavLink to="/Work"
-         className={({isActive})=>{
-            return (isActive)? 'active' : 'notActive'
-        }}
-        >Work</NavLink></div>
+<div > <Link to="Work"
+        activeClass="active"
+        // offset={60}
+        spy={true} smooth={true}
+        duration={500}
+        >Work</Link></div>
 </div>    
 
 
@@ -63,7 +95,7 @@ const links2 =  <div className='NavItems2'>
     return (
       
         <div className='Navbar' style={{}}>
-             <div className='NavBarBox' >
+             <div className={isScrolled? 'NavBarBox' : "" } >
             <div className='NavTitle'>
                 Sasi Bhumaraju
                      <img className='Tick' width={50} src={tick}></img>

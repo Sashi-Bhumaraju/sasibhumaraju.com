@@ -67,7 +67,9 @@
     /* margin-top: 60px; */
     font-weight: bold;
     margin-bottom: 50px;
+    width: 100%;
 }
+
 
 
 .ProjectsList {
@@ -77,23 +79,23 @@
     align-items: center;
     /* background-color: #CF0A0A; */
     /* align-items: center; */
-    width: calc(100% );
+    width: calc(100% - 0%);
+    /* background-color: red; */
     flex-wrap: wrap;
-    margin-top: 100px;
 }
 .ProjectsImage {
-    width: 35%;
+    width:calc(40% - 40px);
     aspect-ratio: 4/2.2;
     object-fit: cover;
     /* background-color: #CF0A0A; */
-    margin: 25px;
+    margin: 20px;
     overflow: hidden;
     border-radius: 5px;
     /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
 }
 
 .ProjectCard {
-    width: calc(100% );
+    width: calc(100% - 20px);
     color:#000000;
     font-weight: 100;
     text-align: left;
@@ -107,48 +109,52 @@
     align-items: center;
     background-color: #ffffff;
     border-radius: 2px;
-    padding: 20px;
+    padding: 30px 10px;
     height: max-content;
-    border: 0.5px  rgba(238, 238, 238,0.8) solid;
-   
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-bottom: 1px  rgba(238, 238, 238,0.8) solid;
+    border-top: 1px  rgba(238, 238, 238,0.8) solid;
+    /* background-color: red; */
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
     /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
 .ProjectCard:hover{
-    transition: scale 0.4s;
-    scale: 1.01;
+    transition: scale 0.3s;
+    scale: 1.005;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .ProjectCardText {
-    width: 65%;
+    width:calc(60% - 40px);
     display: flex;
     flex-direction: column;
     height: max-content;
     /* align-items: center; */
     justify-content: space-around;
-    margin: 30px;
+    margin: 20px 20px;
+    
+    font-weight: 500;
 }
 
 .ProjectName {
     font-size: 30px;
     font-weight: bold;
     color: #000000;
-    margin: 20px;
+    margin: 20px 10px;
 
 }
 
 .ProjectDescription {
-    margin: 20px;
-    font-weight: 500;
+    margin:20px 10px;
+    /* font-size: 18px; */
+    /* font-weight: 500; */
 }
 .ProjectCardButtons {
     display: flex;
     /* justify-content: center; */
     flex-direction: row;
     align-items: center;
-    margin: 20px;
+    margin:20px 10px;
 }
 
 .Git {
@@ -186,6 +192,11 @@
 .ExploreIcon:hover{
     scale: 1.02;
 }
+
+
+
+
+
 
 @media only screen and (max-width: 950px) {
     .ProjectsList {
