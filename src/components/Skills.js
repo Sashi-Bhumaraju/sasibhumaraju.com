@@ -41,6 +41,22 @@ import spring from '../assets/skill/spring.svg';
 
   ]
 
+  const skillsList2 = [
+    <div className='SkillsNamesCardText' style={{color:'white'}} >DSA</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >ReactJs</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >Java <span style={{color:'#FFFFFF'}}>script</span></div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >Html</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >CSS</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >Java</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >SpringBoot</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >My  <span style={{color:' #00758f'}}>sql</span></div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >Firebase</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >C</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >Git</div>,
+    <div className='SkillsNamesCardText' style={{color:'white'}} >Postman</div>,
+
+  ]
+
   const iconList = icons.map(v=>{
    return  <img className='SkillIcon' src={v}></img>
   })
@@ -74,7 +90,7 @@ import spring from '../assets/skill/spring.svg';
     
         <div className='Skills' id="About">
             
-            <div className='SkillsTitle'> About Me and My Skills  </div>
+            <div className='SkillsTitle'> About <span className='Me'>Me</span>  and My Skills  </div>
             <div className='SkillsAboutMe'> As a  passionate  and driven computer science and engineering student with experience in various programming languages and technologies. My passion for  mobile development and interface design started with developing an Android app using  Flutter  and Android Studio. I have honed my problem-solving skills in  data structures and algorithms through online resources. I have also  developed web projects using React JS and Java Spring Boot with dynamic and intuitive interfaces. I am a versatile and motivated developer committed to producing  efficient solutions  to complex problems.</div>
             <div  className='SkillsCardList'>
                   {skillsList.map((v,i)=>{

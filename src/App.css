@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  position: relative;
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   margin: 0px;

@@ -6,7 +6,7 @@ import {Link} from 'react-scroll';
 function Navbar () {
   
 
-    const [isScrolled, setIsScrolled] = useState(true);
+    const [isScroll, setIsScrolled] = useState(true);
 
     const [item1, setItem1] = useState(true);
     const [item2, setItem2] = useState(false);
@@ -44,7 +44,19 @@ function activateNavLink  (position)  {
      }
 }
 
-
+useEffect(()=>{
+    window.addEventListener('scroll', function() {
+        var navbar = document.getElementById('NavBardId');
+        var targetElement = document.getElementById('Work');
+        var targetPosition = targetElement.getBoundingClientRect().top;
+        var navbarHeight = navbar.offsetHeight;
+        if (targetPosition < navbarHeight) {
+            setIsScrolled(true)
+        } else {
+            setIsScrolled(false);
+        }
+      });
+},[])
 
 const links =  <div  id='nav' className='NavItems'>
 
@@ -94,8 +106,8 @@ const links2 =  <div className='NavItems2'>
 </div> 
     return (
       
-        <div className='Navbar' style={{}}>
-             <div className={isScrolled? 'NavBarBox' : "" } >
+        <div className={isScroll? 'NavbarWork' : 'Navbar' }id='NavBardId' style={{}}>
+             <div className={ 'NavBarBox' } >
             <div className='NavTitle'>
                 Sasi Bhumaraju
                      <img className='Tick' width={50} src={tick}></img>
