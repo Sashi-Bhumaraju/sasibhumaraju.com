@@ -24,8 +24,9 @@
   /* background: rgba(22, 21, 23, 1);  */
   
   height: 80px;
-  background: rgba(22, 21, 23, 0.5);
-  box-shadow: rgba(22, 21, 23, 0.1) 0px 0px 15px 0px;
+  background: rgba(22, 21, 23, 0.8);
+  background-color: rgba(15, 15, 15, 0.5); ;
+  /* box-shadow: rgba(22, 21, 23, 0.1) 0px 0px 15px 0px; */
   backdrop-filter: blur(20px);
 
 }
@@ -118,12 +119,25 @@
   font-weight: bold;
   font-size: 20px;
   font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
   /* background-color: red; */
 }
 
 .Tick {
-  margin-left: 10px;
+  
   width: 17px;
+  height: 17px;
+
+}
+
+.TickContainer {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: min-content;
+  height: min-content; */
 }
 
 

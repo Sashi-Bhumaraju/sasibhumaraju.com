@@ -57,7 +57,7 @@ function Home () {
              
 
                 <div className="card-overlay">
-                <p className="card-text"> This is Sasi Bhumaraju. Do not disturb me.</p>
+                <p className="card-text"> Don't disturb me.</p>
               </div>
              </div>
           </div>

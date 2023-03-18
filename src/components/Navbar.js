@@ -3,10 +3,13 @@ import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 import tick from '../assets/tick.svg';
 import {Link} from 'react-scroll';
+import moon from '../assets/skill/moon.png';
+import sun from '../assets/skill/sun.png';
+
 function Navbar () {
   
 
-    const [isScroll, setIsScrolled] = useState(true);
+    const [isScroll, setIsScrolled] = useState(false);
 
     const [item1, setItem1] = useState(true);
     const [item2, setItem2] = useState(false);
@@ -110,7 +113,7 @@ const links2 =  <div className='NavItems2'>
              <div className={ 'NavBarBox' } >
             <div className='NavTitle'>
                 Sasi Bhumaraju
-                     <img className='Tick' width={50} src={tick}></img>
+                   <span className='TickContainer'>  <img className='Tick' width={50} src={isScroll? sun : moon}></img> </span>
                      
             </div>
            

@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer () {
     return (
         <div className='Footer'> 
-             Copyright 2023, Sasi Bhumaraju
+             Created 2023, Sasi Bhumaraju
          </div>
     )
 }
