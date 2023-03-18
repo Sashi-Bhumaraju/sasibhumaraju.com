@@ -141,7 +141,8 @@
 
 .HireMe:hover{
   transition: transform 0.5s ease;
-  background-color: #DC5F00;
+  background-color: #ffffff;
+  color: black;
   transform: scale(1.05);
 }
 
