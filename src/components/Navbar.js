@@ -5,47 +5,14 @@ import tick from '../assets/tick.svg';
 import {Link} from 'react-scroll';
 import moon from '../assets/skill/moon.png';
 import sun from '../assets/skill/sun.png';
+import HamburgerPage from './HamburgerPage';
 
 function Navbar () {
   
 
     const [isScroll, setIsScrolled] = useState(false);
 
-    const [item1, setItem1] = useState(true);
-    const [item2, setItem2] = useState(false);
-    const [item3, setItem3] = useState(false);
 
-    // useEffect(() => {
-    //   window.addEventListener("scroll", handleScroll);
-    //   return () => window.removeEventListener("scroll", handleScroll);
-    // }, []);
-  
-    // const handleScroll = () => {
-    //   const position = window.pageYOffset;
-    //   if (position > 2*window.innerHeight) {
-    //     setIsScrolled(true);
-    //   } else {
-    //     setIsScrolled(false);
-    //   }
-    // };
-  
-
-function activateNavLink  (position)  {
-     switch(position) {
-        case 1: setItem1(true);
-                setItem2(false);
-                setItem3(false);
-                break;
-        case 2: setItem1(false);
-                setItem2(true);
-                setItem3(false);
-                break;
-        case 3: setItem1(false);
-                setItem2(false);
-                setItem3(true);
-                break;        
-     }
-}
 
 useEffect(()=>{
     window.addEventListener('scroll', function() {
@@ -119,9 +86,11 @@ const links2 =  <div className='NavItems2'>
            
                  {links}
 
+                 <span className='Ham'><HamburgerPage></HamburgerPage></span>
+
             {/* <div className='Resume'>Resume</div> */}
             </div> 
-            {links2}
+          
         </div>
        
        

@@ -6,7 +6,7 @@ import Home from './components/Home'
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
-
+import HamburgerPage from './components/HamburgerPage';
 
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
             <Skills></Skills>
             <Projects></Projects>
             <Footer></Footer>
+
+            {/* <HamburgerPage></HamburgerPage> */}
     </div>
   );
 }

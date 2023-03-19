@@ -1,8 +1,8 @@
 .Home {
     margin:0px; 
     overflow: hidden;
-    width: 100%; 
-    padding: 100px 0px; 
+    width: calc(100% - 24%); 
+    padding: 0px 12%; 
     /* padding-bottom: 1px; */
     display: flex; 
     background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png');
