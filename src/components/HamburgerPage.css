@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: calc(100% - 68%);
+    margin-top: calc(100% - 69%);
 }
 
 .HamburgerLight {
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: calc(100% - 68%);
+    margin-top: calc(100% - 69%);
 }
 
 .MenuDark {
@@ -61,7 +61,7 @@
     /* height: 200px; */
     align-items:  baseline;
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     /* justify-content: center; */
     align-items: center;
     /* background-color: red; */
@@ -77,7 +77,7 @@
 }
 
 .HamItemDark {
-    height: 40px;  
+    height: 30px;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@
 }
 
 .HamItemLight {
-    height: 40px;  
+    height: 30px;  
     display: flex;
     justify-content: center;
     align-items: center;

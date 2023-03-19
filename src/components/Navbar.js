@@ -80,7 +80,7 @@ const links2 =  <div className='NavItems2'>
              <div className={ 'NavBarBox' } >
             <div className='NavTitle'>
                 Sasi Bhumaraju
-                   <span className='TickContainer'>  <img className='Tick' width={50} src={isScroll? sun : moon}></img> </span>
+                   <span className='TickContainer'>  <img className='Tick' width={50} src={isScroll? tick : tick}></img> </span>
                      
             </div>
            

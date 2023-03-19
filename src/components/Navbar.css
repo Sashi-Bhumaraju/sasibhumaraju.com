@@ -183,14 +183,22 @@ font-weight: bold;
     .NavTitle {
       font-weight: bold;
       /* margin: 0px 20px ; */
-      /* font-size: 18px; */
+      font-size: 20px;
     }
 
     .Tick {
-      /* margin: 10px; */
-      /* margin-left: 5px;
-      width: 14px; */
+    
+      width: 16px;
+      height: 16px;
+     
+
     }
+
+    
+.TickContainer {
+  margin-left: 7px;
+ 
+}
 
     .NavItems{
         display: none;

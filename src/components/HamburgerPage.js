@@ -55,7 +55,7 @@ function HamburgerPage () {
 
 
 
-    return <> <div className={ isScrollHam? 'HamburgerLight' : 'HamburgerDark' }><Hamburger duration={0.1} direction='right' size={30} 
+    return <> <div className={ isScrollHam? 'HamburgerLight' : 'HamburgerDark' }><Hamburger duration={0.1} direction='right' size={24} 
         onToggle={ active => {
             if( active ) {
                console.log("opened");

@@ -185,15 +185,18 @@
     }    
 
     .SkillsAboutMe{
-        font-size: 18px;
+      
         letter-spacing: 0px;
         line-height: 24px;
-        margin-top: 26px;
+        /* margin-top: 26px; */
 
         font-size: 14px;
         letter-spacing: 0.2px;
         line-height: 20px;
         font-weight: 500;
+        /* display: inline-flex; */
+        word-wrap: break-word;
+        /* white-space: nowrap; */
     }
 
     
@@ -216,7 +219,7 @@
 }
 
   .Resume{
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.3px;
     line-height: 18px;
     padding: 16px 24px;
