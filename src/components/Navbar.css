@@ -214,16 +214,16 @@ font-weight: bold;
 
     .Navbar {
      
-      width: calc(100% - 14%); 
-      padding: 0px 7%; 
+      width: calc(100% - 12%); 
+      padding: 0px 6%; 
       height: 80px;
       /* background-color: red; */
      
     }
     
     .NavbarWork {
-      width: calc(100% - 10%); 
-      padding: 0px 5%; 
+      width: calc(100% - 12%); 
+      padding: 0px 6%; 
       height: 80px;
       
     }

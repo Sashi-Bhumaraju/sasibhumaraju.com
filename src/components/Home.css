@@ -272,8 +272,8 @@
   
 @media only screen and (max-width: 950px) {
     .Home {
-      width: calc(100% - 14%); 
-      padding: 0px 7%;
+      width: calc(100% - 12%); 
+      padding: 0px 6%; 
       align-items: left; 
       justify-content: left; 
     }
@@ -376,6 +376,7 @@
     width: 350px;
     height: 100%;
 
+  filter : drop-shadow(0px 0px 2px #ffffff);
   }
 
   .card-overlay {
