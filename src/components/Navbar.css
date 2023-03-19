@@ -173,6 +173,7 @@ font-weight: bold;
   /* visibility: none; */
   display: none;
   position: relative;
+  /* background-color: #CF0A0A; */
 }
 
 
@@ -196,14 +197,31 @@ font-weight: bold;
     }
 
     .Ham {
-      /* visibility: none; */
-      
       position: relative;
       display: flex;
       height: 100%;
       width: 50px;
-      /* background-color: #CF0A0A; */
+     
     }
+
+    .Navbar {
+     
+      width: calc(100% - 10%); 
+      padding: 0px 5%; 
+      height: 80px;
+      /* background-color: red; */
+     
+    }
+    
+    .NavbarWork {
+      width: calc(100% - 10%); 
+      padding: 0px 5%; 
+      height: 80px;
+      
+    }
+    
+    
+    
   
 }
 

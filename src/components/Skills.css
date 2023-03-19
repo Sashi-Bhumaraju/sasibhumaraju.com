@@ -3,22 +3,17 @@
 .Skills {
 
     min-height: 100vh;
+    height: max-content;
     position: relative;
-    /* background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg');
-    background-image: url('https://images.pexels.com/photos/6783241/pexels-photo-6783241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
     background-size: cover; 
     flex-direction: column; 
     justify-content: center; 
     display: flex; 
     width: calc(100% - 24%); 
-    padding: 100px 12%; 
+    padding: 150px 12%; 
     object-fit:fill;
-    /* background-color: rgb(90, 30, 203); */
-    /* background: -webkit-radial-gradient(left top, rgb(154, 84, 235), rgb(97, 42, 211)); */
-    /* background-color: rgb(238, 47, 76);
-    background-color: rgb(26, 97, 233); */
-background-color: rgb(15, 15, 15); 
- background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png'); 
+    background-color: rgb(15, 15, 15); 
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png'); 
     /* border-bottom: 2px  rgba(238, 238, 238,0.5) solid; */
     /* background: -webkit-radial-gradient(left top, rgb(154, 84, 235), rgb(97, 42, 211)); */
 }
@@ -174,141 +169,64 @@ background-color: rgb(15, 15, 15);
 }
 
 
-/* 
+
 @media only screen and (max-width: 950px) { 
+    
     .Skills {
-        width: 100%;
-        height: max-content;
-     
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        color: white;
-       
-        flex-direction: column;
-        padding-top: 30px;
-        padding-bottom: 30px;
-      
+        width: calc(100% - 10%); 
+        padding: 150px 5%; 
     }
-    
+
     .SkillsTitle {
+        margin-bottom: 30px;
+        font-size: 65px;
+        letter-spacing: -1.95px;
+        line-height: 58px;
+    }    
+
+    .SkillsAboutMe{
         font-size: 18px;
-        font-weight: bold;
-        color: #CF0A0A;
-        margin: 40px 0px 0px 0px;
+        letter-spacing: 0px;
+        line-height: 24px;
+        margin-top: 26px;
+
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        line-height: 20px;
+        font-weight: 500;
     }
+
     
-    .SkillsAboutMe {
-        color:#000000;
-        font-weight: 100;
-        text-align: left;
-        margin: 40px 20px 30px 20px;
-        line-height: 22px;
-        font-weight: 100;
-        word-spacing: 1px;
-       
-        font-size: 12px;
-        
-    }
-    
-    .SkillsNames {
-     
-         height: 160px;
-         width: 100vw;
-       
-         color: black;
-       
-         margin: 0px 0px 30px 0px;
-        display: flex; 
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        overflow: visible;
-       
-    }
-    
-    .SkillsNamesCard {
-        width: 80px;
-        height: 100px;
-      
-      
-        display: flex;
-      
-        align-items: center;
-        flex-direction: column;
-       
-        color: #CF0A0A;
-    }
-    
-    .SkillsNamesCard:hover {
-       
-    }
-    
-    .SkillsNamesCardImage {
-        width: 25px;
-        height: 25px;
-        object-fit:fill;
-      
-        backdrop-filter: blur(10px);
-        padding: 20px;
-        margin: 5px;
-        border-radius: 2.5px;
-    }
-    
-    .SkillsNamesCardText {
-        font-weight: 900;
-        letter-spacing: 1px;
-        margin: 5px;
-        font-size: 10px;
-    }
-    
-    .arrow {
-     
-        width: 10px;
-        margin: 20px;
-        opacity: 0.5;
-        cursor: pointer;
-        
-    }
-    
-    .arrow:hover {
-        opacity: 10;
-    }
-    
-    .SkillsCardList {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        height: 100%;
-      
-        align-items: center;
-        scroll-behavior: smooth;
-       scroll-snap-type:inline mandatory;
-       overscroll-behavior-inline: contain;
-       -ms-overflow-style: none; 
-       scrollbar-width: none;  
-       padding: 0px 10px 0px 10px;
-    }
-    
-    .SkillsCardList::-webkit-scrollbar {
-        display: none;
-      }
-    
-    
-    
-    .snaps {
-        scroll-snap-type: inline mandatory;
-    }
-    
-    .EmptyBox {
-     
-        width: 100px;
-        height: 100%;
-    }
+.SkillsCardList {
+   
+  
+    background-size: 100%;
+    height: max-content;
+    width: 100%;
+    margin-top: 30px;
+   
     
 }
 
- */
+.SkillsNamesCardText {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+  .Resume{
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+    padding: 16px 24px;
+    cursor: none;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+  }
+}
+
+
