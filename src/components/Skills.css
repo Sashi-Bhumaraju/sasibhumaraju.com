@@ -173,8 +173,8 @@
 @media only screen and (max-width: 950px) { 
     
     .Skills {
-        width: calc(100% - 10%); 
-        padding: 150px 5%; 
+        width: calc(100% - 14%); 
+        padding: 100px 7%; 
     }
 
     .SkillsTitle {

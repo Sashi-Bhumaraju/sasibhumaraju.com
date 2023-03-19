@@ -272,8 +272,8 @@
   
 @media only screen and (max-width: 950px) {
     .Home {
-      width: calc(100% - 10%); 
-      padding: 0px 5%; 
+      width: calc(100% - 14%); 
+      padding: 0px 7%;
       align-items: left; 
       justify-content: left; 
     }

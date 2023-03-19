@@ -183,7 +183,7 @@ font-weight: bold;
     .NavTitle {
       font-weight: bold;
       /* margin: 0px 20px ; */
-      font-size: 20px;
+      font-size: 21px;
     }
 
     .Tick {
@@ -214,8 +214,8 @@ font-weight: bold;
 
     .Navbar {
      
-      width: calc(100% - 10%); 
-      padding: 0px 5%; 
+      width: calc(100% - 14%); 
+      padding: 0px 7%; 
       height: 80px;
       /* background-color: red; */
      
