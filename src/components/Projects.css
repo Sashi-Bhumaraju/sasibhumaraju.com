@@ -185,19 +185,19 @@
 
 @media only screen and (max-width: 950px) {
    
-    .Projects {
+    .Projects { 
         width: calc(100% - 12%); 
         padding: 100px 6%; 
     }
 
-    .ProjectsHeading {
+    .ProjectsHeading { 
         margin-bottom: 30px;
         font-size: 65px;
         letter-spacing: -1.95px;
         line-height: 58px;
     }
 
-    .ProjectsSubHeading {
+    .ProjectsSubHeading { 
    
         letter-spacing: 0px;
         line-height: 24px;
@@ -209,9 +209,22 @@
 
     }
 
-    .ProjectCard {
+    .ProjectsList { 
+        display: flex;
+        flex-direction:unset;
+        justify-content: none;
+        align-items: none;
+        flex-wrap: wrap;
+        width: calc(100% - 0%);
+        flex-wrap: wrap;
+    }
+    
 
-        width: calc(100% - 0px); 
+    .ProjectCard { 
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        /* width: calc(100% - 0px);  */
+        max-width: calc(50% - 6%);
+        /* max-width: 330px; */
         color:#000000; 
         font-weight: 100; 
         text-align: left; 
@@ -227,7 +240,8 @@
         padding: 0px 0px; 
         /* background-color: red; */
         height: max-content; 
-        margin-bottom: 10px;
+        margin: 15px;
+
         border-bottom: 1px  rgba(238, 238, 238,0.8) solid; 
         border-top: 1px  rgba(238, 238, 238,0.8) solid; 
 
@@ -248,13 +262,14 @@
     
 
     .ProjectCardText {
-        width:calc(100%);
+        width:calc(100% - 16px);
         display: flex;
         flex-direction: column;
         height: max-content;
         justify-content: space-around;
         margin: 0px 0px;
         font-weight: 500;
+        padding: 10px 8px;
     }
 
     .ProjectName {
@@ -273,7 +288,7 @@
     .ProjectDescription {
         padding: 0px 8px;
         margin: 0px;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 15px;
         height: 15px;
         overflow: hidden;
@@ -317,5 +332,56 @@
         padding: 3px 20px;
     
     }
+
     
+.ExploreIcon {
+
+    width: 14px;
+    margin-left: 5px;
+
+}
+    
+}
+
+
+@media only screen and (max-width: 720px) {
+ 
+    .ProjectsList {
+        display: flex;
+        flex-direction:column;
+        justify-content: none;
+        align-items: none;
+        flex-wrap: wrap;
+        width: calc(100% - 0%);
+        flex-wrap: wrap;
+    }
+    
+    
+    .ProjectCard {
+        
+        width: calc(100% - 0px); 
+        max-width: calc(100%);
+        /* max-width: 330px; */
+        color:#000000; 
+        font-weight: 100; 
+        text-align: left; 
+        line-height: 22px; 
+        font-weight: 100; 
+        word-spacing: 1px; 
+        display: flex; 
+        flex-direction: column-reverse; 
+        justify-content: center; 
+        align-items: center; 
+        background-color: #ffffff; 
+        border-radius: 5px; 
+        padding: 0px 0px; 
+        /* background-color: red; */
+        height: max-content; 
+        margin: 0px;
+        margin-bottom: 20px;
+
+        border-bottom: 1px  rgba(238, 238, 238,0.8) solid; 
+        border-top: 1px  rgba(238, 238, 238,0.8) solid; 
+
+    }
 }
