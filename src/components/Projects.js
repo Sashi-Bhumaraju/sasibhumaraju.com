@@ -40,6 +40,8 @@ const projectImages = [f,a,g,c,d,b];
                  }
                 
             </div>
+
+            <div className='SeeMore'> See More ...  </div>
            
         </div>
     )

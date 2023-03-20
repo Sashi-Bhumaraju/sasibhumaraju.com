@@ -9,6 +9,26 @@
 
 }
 
+.SeeMore {
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    /* width: min-content; */
+    display: flex;
+    align-self: center;
+}
+
+.SeeMore:hover{
+   
+    transition: transform 0.5s ease;
+    /* background-color: #000000; */
+
+    color:#CF0A0A;
+    transform: scale(1.05);
+
+}
+
 .ProjectsHeading {
    
     font-size: 100px; 
@@ -128,6 +148,8 @@
 
 .Git:hover{
     scale: 1.02;
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
 }
 
 .Explore {
@@ -222,6 +244,7 @@
 
     .ProjectCard { 
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
         /* width: calc(100% - 0px);  */
         max-width: calc(50% - 6%);
         /* max-width: 330px; */
@@ -269,7 +292,8 @@
         justify-content: space-around;
         margin: 0px 0px;
         font-weight: 500;
-        padding: 10px 8px;
+        padding: 0px 8px;
+        padding-top: 10px;
     }
 
     .ProjectName {
@@ -340,6 +364,17 @@
     margin-left: 5px;
 
 }
+
+.SeeMore {
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    /* width: min-content; */
+    display: flex;
+    align-self: center;
+}
+
     
 }
 
@@ -358,7 +393,9 @@
     
     
     .ProjectCard {
-        
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+        /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
         width: calc(100% - 0px); 
         max-width: calc(100%);
         /* max-width: 330px; */
@@ -378,7 +415,7 @@
         /* background-color: red; */
         height: max-content; 
         margin: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
 
         border-bottom: 1px  rgba(238, 238, 238,0.8) solid; 
         border-top: 1px  rgba(238, 238, 238,0.8) solid; 
