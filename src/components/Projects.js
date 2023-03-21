@@ -29,8 +29,8 @@ const projectImages = [f,a,g,c,d,b];
                                
                         {/* </div> */}
                         <div className='ProjectCardButtons'>
-                            <div className='Git'> GitHub </div>
-                            <div className='Explore'> Explore <img className='ExploreIcon' src={eRight}></img> </div>
+                            <a target="_blank"  href={project.git} className='Git'> GitHub </a>
+                            <a target="_blank"  href={project.live}  className='Explore'> Explore <img className='ExploreIcon' src={eRight}></img> </a>
                         </div>
                         
                     </div>
@@ -41,7 +41,7 @@ const projectImages = [f,a,g,c,d,b];
                 
             </div>
 
-            <div className='SeeMore'> See More ...  </div>
+            <a target="_blank" href='https://github.com/sasibhumaraju?tab=repositories' className='SeeMore'> See More ...  </a>
            
         </div>
     )

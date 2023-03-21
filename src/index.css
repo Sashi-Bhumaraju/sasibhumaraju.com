@@ -34,10 +34,15 @@ body {
   justify-content: center; */
   /* align-items: center; */
   font-family: 'Gilroy', sans-serif;
+  
 }
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+* {
+  text-decoration: none;
+}
 

@@ -46,7 +46,7 @@ function Home () {
                   <img className='Icon' src={telegram}></img>
                   <img className='Icon' src={twitter}></img>
               </div>
-            <div className='HireMe'>Hire Me</div>
+            <a className='HireMe' target="_blank"  href="mailto:sasi.bhumaraju@gmail.com">Hire Me</a>
             </div>
            
             <div className='HomeImage'>

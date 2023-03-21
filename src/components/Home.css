@@ -122,6 +122,8 @@
   width: 100px;
   color: white;
   background-color: #CF0A0A;
+ 
+
   /* background-color: white; */
   color: #ffffff;
   text-align: center;
@@ -136,6 +138,11 @@
   line-height: 30px;
   border-radius: 40px;
   padding: 20px 65px;
+  text-decoration: none; /* remove underline */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
  
 }
 

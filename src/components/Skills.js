@@ -103,7 +103,7 @@ import spring from '../assets/skill/spring.svg';
                            
                     })}  
                 </div>
-            <div className='Resume' >Download Resume</div>
+            <a target="_blank" href='https://drive.google.com/file/d/1wPYck9B2Ajrxx2VYWLVSwuICLXMPp6kp/view?usp=sharing' className='Resume' >Download Resume</a>
       </div>
       
     
