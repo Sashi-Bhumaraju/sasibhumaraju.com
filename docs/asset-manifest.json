@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/sasibhumaraju.com/static/css/main.091f8f98.css",
+    "main.js": "/sasibhumaraju.com/static/js/main.4c186109.js",
+    "static/js/787.21d17fcb.chunk.js": "/sasibhumaraju.com/static/js/787.21d17fcb.chunk.js",
+    "static/media/silpa.png": "/sasibhumaraju.com/static/media/silpa.da8353751755f48fd1f5.png",
+    "static/media/botanica.png": "/sasibhumaraju.com/static/media/botanica.ac9f25d68266a15bca41.png",
+    "static/media/guarage.jpg": "/sasibhumaraju.com/static/media/guarage.b686964f96e71429ceea.jpg",
+    "static/media/lights.png": "/sasibhumaraju.com/static/media/lights.111ec67201db0c7a8b85.png",
+    "static/media/pokeman.png": "/sasibhumaraju.com/static/media/pokeman.23920cb31b45668c378a.png",
+    "static/media/sorting2.png": "/sasibhumaraju.com/static/media/sorting2.1d00171370e79c84bf58.png",
+    "static/media/coffe.svg": "/sasibhumaraju.com/static/media/coffe.d594a969cb529b790bc69f6a895b29e4.svg",
+    "static/media/github.svg": "/sasibhumaraju.com/static/media/github.b157059430808fec3f4e211fdef4e1ed.svg",
+    "static/media/twitter.svg": "/sasibhumaraju.com/static/media/twitter.1268b6460699a17c9a3614adddce700c.svg",
+    "static/media/telegram.svg": "/sasibhumaraju.com/static/media/telegram.722fb8705206708dab7b576538561aa6.svg",
+    "index.html": "/sasibhumaraju.com/index.html",
+    "static/media/tick.svg": "/sasibhumaraju.com/static/media/tick.6752d1c46c91273ea8b32fd427886a65.svg",
+    "static/media/mail.svg": "/sasibhumaraju.com/static/media/mail.26959fcafbe482562de5b6bf46006036.svg",
+    "static/media/instagram.svg": "/sasibhumaraju.com/static/media/instagram.457b5ec1328d2d5c473bedc1001abeab.svg",
+    "static/media/linkedin.svg": "/sasibhumaraju.com/static/media/linkedin.a996bb0e478533e3f9e21c127e1be230.svg",
+    "static/media/exploreright.svg": "/sasibhumaraju.com/static/media/exploreright.bd75e7cd9f0f5cd028d47669e8f1fc50.svg",
+    "main.091f8f98.css.map": "/sasibhumaraju.com/static/css/main.091f8f98.css.map",
+    "main.4c186109.js.map": "/sasibhumaraju.com/static/js/main.4c186109.js.map",
+    "787.21d17fcb.chunk.js.map": "/sasibhumaraju.com/static/js/787.21d17fcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.091f8f98.css",
+    "static/js/main.4c186109.js"
+  ]
+}

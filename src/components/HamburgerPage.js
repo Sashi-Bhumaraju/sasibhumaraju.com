@@ -60,6 +60,7 @@ function HamburgerPage () {
 
 
     return <> <div className={ isScrollHam? 'HamburgerLight' : 'HamburgerDark' }><Hamburger toggled={toggleSlide}  duration={0.1} direction='right' size={24} 
+        
         onToggle={ active => {
             if( active ) {
                console.log("opened"); 

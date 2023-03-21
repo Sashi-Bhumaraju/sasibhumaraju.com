@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import { NavLink } from 'react-router-dom';
 import tick from '../assets/tick.svg';
 import {Link} from 'react-scroll';
 import HamburgerPage from './HamburgerPage';
+// import { NavLink } from 'react-router-dom';
 // import moon from '../assets/skill/moon.png';
 // import sun from '../assets/skill/sun.png';
 
@@ -55,33 +55,13 @@ function Navbar () {
         </div>    
 
 
-        const links2 =  <div className='NavItems2'>
-
-        <div className='Navitem'> <NavLink  to="/"
-                className={({isActive})=>{
-                    return (isActive)? 'active' : 'notActive'
-                }}
-                >Home</NavLink></div>
-
-        <div className='Navitem' > <NavLink to="/About"
-                className={({isActive})=>{
-                    return (isActive)? 'active' : 'notActive'
-                }}
-                >About</NavLink></div>
-
-        <div className='Navitem'> <NavLink to="/Work"
-                className={({isActive})=>{
-                    return (isActive)? 'active' : 'notActive'
-                }}
-                >Work</NavLink></div>
-        </div> 
     return (
       
         <div className={isScroll? 'NavbarWork' : 'Navbar' }id='NavBardId' style={{}}>
              <div className={ 'NavBarBox' } >
             <div className='NavTitle'>
                 Sasi Bhumaraju
-                   <span className='TickContainer'>  <img className='Tick' width={50} src={isScroll? tick : tick}></img> </span>
+                   <span className='TickContainer'>  <img alt='verify' className='Tick' width={50} src={isScroll? tick : tick}></img> </span>
                      
             </div>
            

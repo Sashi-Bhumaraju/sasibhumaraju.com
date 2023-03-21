@@ -41,19 +41,19 @@ import Data from '../Data/Data'
                                
                         {/* </div> */}
                         <div className='ProjectCardButtons'>
-                            <a target="_blank"  href={project.git} className='Git'> GitHub </a>
-                            <a target="_blank"  href={project.live}  className='Explore'> Explore <img className='ExploreIcon' src={eRight}></img> </a>
+                            <a target="_blank" rel="noreferrer"  href={project.git} className='Git'> GitHub </a>
+                            <a target="_blank" rel="noreferrer"  href={project.live}  className='Explore'> Explore <img alt='live' className='ExploreIcon' src={eRight}></img> </a>
                         </div>
                         
                     </div>
-                    <img className='ProjectsImage' src={project.image}></img>
+                    <img alt={project.name} className='ProjectsImage' src={project.image}></img>
                  </div>
                  })
                  }
                 
             </div>
 
-            <a target="_blank" href='https://github.com/sasibhumaraju?tab=repositories' className='SeeMore'> See More ...  </a>
+            <a target="_blank" rel="noreferrer" href='https://github.com/sasibhumaraju?tab=repositories' className='SeeMore'> See More ...  </a>
            
         </div>
     )

@@ -14,7 +14,7 @@ import Lottie from 'react-lottie';
 
 
 function Home () {
-    const data = [  {    "country": "USA",    "city": "New York"  },  {    "country": "USA",    "city": "Los Angeles"  },  {    "country": "USA",    "city": "Chicago"  },  {    "country": "Canada",    "city": "Toronto"  },  {    "country": "Canada",    "city": "Vancouver"  },  {    "country": "Canada",    "city": "Montreal"  },  {    "country": "UK",    "city": "London"  },  {    "country": "UK",    "city": "Manchester"  },  {    "country": "UK",    "city": "Birmingham"  }]
+    // const data = [  {    "country": "USA",    "city": "New York"  },  {    "country": "USA",    "city": "Los Angeles"  },  {    "country": "USA",    "city": "Chicago"  },  {    "country": "Canada",    "city": "Toronto"  },  {    "country": "Canada",    "city": "Vancouver"  },  {    "country": "Canada",    "city": "Montreal"  },  {    "country": "UK",    "city": "London"  },  {    "country": "UK",    "city": "Manchester"  },  {    "country": "UK",    "city": "Birmingham"  }]
 
     const defaultOptions = {
         loop: true,
@@ -35,15 +35,15 @@ function Home () {
              </div>   
             
               <div className='SocialIcons'>
-               <a  target="_blank" href="mailto:sasi.bhumaraju@gmail.com">   <img className='Icon' src={mail}></img></a>
-               <a  target="_blank" href="https://www.linkedin.com/in/sasibhumaraju/"><img className='Icon' src={linkedin}></img></a>
-               <a  target="_blank" href="https://github.com/sasibhumaraju"><img className='Icon' src={github}></img></a>
-               <a  target="_blank" href="https://www.buymeacoffee.com/SasiBhumaraju"><img className='Icon' src={coffe}></img></a>
-               <a  target="_blank" href="https://www.instagram.com/sasi_bhumaraju/"><img className='Icon' src={instagram}></img></a>
-               <a  target="_blank" href="https://t.me/SasiBhumaraju"><img className='Icon' src={telegram}></img></a>
-               <a  target="_blank" href="https://twitter.com/BhumarajuSashi"><img className='Icon' src={twitter}></img></a>
+               <a  target="_blank" rel="noreferrer" href="mailto:sasi.bhumaraju@gmail.com">   <img className='Icon' alt='mail' src={mail}></img></a>
+               <a  target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sasibhumaraju/"><img className='Icon' alt='linkedin' src={linkedin}></img></a>
+               <a  target="_blank" rel="noreferrer" href="https://github.com/sasibhumaraju"><img className='Icon' alt='github' src={github}></img></a>
+               <a  target="_blank" rel="noreferrer" href="https://www.buymeacoffee.com/SasiBhumaraju"><img className='Icon' alt='coffe' src={coffe}></img></a>
+               <a  target="_blank" rel="noreferrer" href="https://www.instagram.com/sasi_bhumaraju/"><img className='Icon' alt='instagram' src={instagram}></img></a>
+               <a  target="_blank" rel="noreferrer" href="https://t.me/SasiBhumaraju"><img className='Icon' alt='telegram' src={telegram}></img></a>
+               <a  target="_blank" rel="noreferrer" href="https://twitter.com/BhumarajuSashi"><img className='Icon' alt='twitter' src={twitter}></img></a>
               </div>
-            <a className='HireMe' target="_blank"  href="mailto:sasi.bhumaraju@gmail.com">Hire Me</a>
+            <a className='HireMe' target="_blank" rel="noreferrer"  href="mailto:sasi.bhumaraju@gmail.com">Hire Me</a>
             </div>
            
             <div className='HomeImage'>

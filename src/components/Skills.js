@@ -55,7 +55,7 @@ import './Skills.css';
                            
                     })}  
                 </div>
-            <a target="_blank" href='https://drive.google.com/file/d/1wPYck9B2Ajrxx2VYWLVSwuICLXMPp6kp/view?usp=sharing' className='Resume' >Download Resume</a>
+            <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1wPYck9B2Ajrxx2VYWLVSwuICLXMPp6kp/view?usp=sharing' className='Resume' >Download Resume</a>
       </div>
       
     
