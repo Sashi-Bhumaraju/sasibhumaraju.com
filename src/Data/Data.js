@@ -6,7 +6,7 @@ import f from '../assets/projects/silpa.png';
 import g from '../assets/projects/sorting2.png';
 
 
-const projectImages = [f,a,g,c,d,b];
+
 
 const Data = [
     {

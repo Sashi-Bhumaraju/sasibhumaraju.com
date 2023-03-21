@@ -1,7 +1,5 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './Home.css';
-import sasibhumaraju from '../assets/sasibhumaraju.jpeg';
-import tick from '../assets/tick.svg';
 import coffe from '../assets/coffe.svg';
 import github from '../assets/github.svg';
 import instagram from '../assets/instagram.svg';
@@ -9,10 +7,9 @@ import linkedin from '../assets/linkedin.svg';
 import mail from '../assets/mail.svg';
 import telegram from '../assets/telegram.svg';
 import twitter from '../assets/twitter.svg';
-
 import lottie from '../assets/happy.json';
 import Lottie from 'react-lottie';
-//import bulb from '../assets/bulb.lottie';
+
 
 
 

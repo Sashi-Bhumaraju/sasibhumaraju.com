@@ -10,6 +10,7 @@ function HamburgerPage () {
     
     const [isScrollHam, setisScrollHamed] = useState(false);
     const [toggleSlide, setToggleSlide] = useState(false);
+    const [slideOut, setslideOut] = useState("");
 
     useEffect(()=>{
         window.addEventListener('scroll', function() {
@@ -54,10 +55,7 @@ function HamburgerPage () {
                     </div>    
 
 
-const [isOpen, setOpen] = useState(false)
-
-
-const [slideOut, setslideOut] = useState("");
+   
 
 
 

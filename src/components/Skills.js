@@ -1,27 +1,24 @@
-import React, { useEffect, useRef } from 'react';
-import HorizontalScroll from 'react-scroll-horizontal'
+import React  from 'react';
 import './Skills.css';
-import bulb from '../assets/skill.json';
-import c from '../assets/skill/c.svg';
-import css from '../assets/skill/css.svg';
-import firebase  from '../assets/skill/firebase.svg';
-import git from '../assets/skill/git.svg';
-import html from '../assets/skill/html.svg';
-import java from '../assets/skill/java.svg';
-import js from '../assets/skill/js.svg';
-import mysql from '../assets/skill/mysql.svg';
-import postman from '../assets/skill/postman.svg';
-import dsa from '../assets/skill/dsa.png'
-import react from '../assets/skill/react.svg';
-import spring from '../assets/skill/spring.svg';
+
+// import HorizontalScroll from 'react-scroll-horizontal'
+// import bulb from '../assets/skill.json';
+// import c from '../assets/skill/c.svg';
+// import css from '../assets/skill/css.svg';
+// import firebase  from '../assets/skill/firebase.svg';
+// import git from '../assets/skill/git.svg';
+// import html from '../assets/skill/html.svg';
+// import java from '../assets/skill/java.svg';
+// import js from '../assets/skill/js.svg';
+// import mysql from '../assets/skill/mysql.svg';
+// import postman from '../assets/skill/postman.svg';
+// import dsa from '../assets/skill/dsa.png'
+// import react from '../assets/skill/react.svg';
+// import spring from '../assets/skill/spring.svg';
 
 
-  const icons = [dsa,react,js,html,css,java,spring,mysql,firebase,c,git,postman];
-  const colors = [ '#61DBFB', '#F0DB4F', ]
-  const skillName = ['DSA', 'ReactJs','JavaScript','Html','Css','Java','SpringBoot','Mysql','Firebase','C','Git','postman'];
-  const cardData = icons.map((v,i)=>{
-    return { "icon" : v, "name" : skillName[i] };
-  })
+  // const icons = [dsa,react,js,html,css,java,spring,mysql,firebase,c,git,postman];
+  // const skillName = ['DSA', 'ReactJs','JavaScript','Html','Css','Java','SpringBoot','Mysql','Firebase','C','Git','postman'];
 
  function Skills () {
    
@@ -41,51 +38,6 @@ import spring from '../assets/skill/spring.svg';
 
   ]
 
-  const skillsList2 = [
-    <div className='SkillsNamesCardText' style={{color:'white'}} >DSA</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >ReactJs</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >Java <span style={{color:'#FFFFFF'}}>script</span></div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >Html</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >CSS</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >Java</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >SpringBoot</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >My  <span style={{color:' #00758f'}}>sql</span></div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >Firebase</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >C</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >Git</div>,
-    <div className='SkillsNamesCardText' style={{color:'white'}} >Postman</div>,
-
-  ]
-
-  const iconList = icons.map(v=>{
-   return  <img className='SkillIcon' src={v}></img>
-  })
-
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: bulb,
-    // rendererSettings: {
-    //   preserveAspectRatio: "xMidYMid slice"
-    // }
-  };
-
-  function leftScroll () {
-     var slider = document.getElementById('Slider');
-     slider.scrollLeft = slider.scrollLeft - slider.offsetWidth;
-  }
-
-  function rightScroll () {
-    var slider = document.getElementById('Slider');
-    slider.scrollLeft = slider.scrollLeft +  slider.offsetWidth;
-  }
-
-  
-
-  const child   = { width: `30em`, height: `100px`}
-  
-
-  
     return(
     
         <div className='Skills' id="About">
@@ -109,4 +61,5 @@ import spring from '../assets/skill/spring.svg';
     
     )
  }
+
  export default Skills;

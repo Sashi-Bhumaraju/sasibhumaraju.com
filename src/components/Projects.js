@@ -1,17 +1,16 @@
 import {React, useState} from 'react';
 import './Projects.css';
-import a from '../assets/projects/botanica.png';
-import b from '../assets/projects/guarage.jpg';
-import c from '../assets/projects/lights.png';
-import d from '../assets/projects/pokeman.png';
-// import e from '../assets/projects/roll.png';
-import f from '../assets/projects/silpa.png';
-import g from '../assets/projects/sorting.png';
 import eRight from '../assets/exploreright.svg';
-
 import Data from '../Data/Data'
 
-const projectImages = [f,a,g,c,d,b];
+// import a from '../assets/projects/botanica.png';
+// import b from '../assets/projects/guarage.jpg';
+// import c from '../assets/projects/lights.png';
+// import d from '../assets/projects/pokeman.png';
+// import e from '../assets/projects/roll.png';
+// import f from '../assets/projects/silpa.png';
+// import g from '../assets/projects/sorting.png';
+//  const projectImages = [f,a,g,c,d,b];
 
  function Projects () {
 
