@@ -33,6 +33,7 @@
    z-index: 200;
    color: white;
    padding-top: 90px;
+   transform: translateX(100%);
 }
 
 .MenuLight {
@@ -45,6 +46,7 @@
     z-index: 200;
     color: black;
     padding-top: 90px;
+    transform: translateX(100%);
 }
 
 .HamItems {
@@ -109,6 +111,7 @@
     border-radius: 15px;
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
+
 }
 
 
