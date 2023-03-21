@@ -115,7 +115,7 @@
   filter: invert();
   /* background-color: red; */
 
-
+ text-decoration: none;
 }
 
 .HireMe{
@@ -394,4 +394,13 @@
     font-size: 11px;
   }
 
+}
+
+@media only screen and (max-width: 480px) { 
+  .SocialIcons {
+    cursor: none;
+  } 
+  .Icon {
+    cursor: none;
+  }
 }

@@ -38,13 +38,13 @@ function Home () {
              </div>   
             
               <div className='SocialIcons'>
-                  <img className='Icon' src={mail}></img>
-                  <img className='Icon' src={linkedin}></img>
-                  <img className='Icon' src={github}></img>
-                  <img className='Icon' src={coffe}></img>
-                  <img className='Icon' src={instagram}></img>
-                  <img className='Icon' src={telegram}></img>
-                  <img className='Icon' src={twitter}></img>
+               <a  target="_blank" href="mailto:sasi.bhumaraju@gmail.com">   <img className='Icon' src={mail}></img></a>
+               <a  target="_blank" href="https://www.linkedin.com/in/sasibhumaraju/"><img className='Icon' src={linkedin}></img></a>
+               <a  target="_blank" href="https://github.com/sasibhumaraju"><img className='Icon' src={github}></img></a>
+               <a  target="_blank" href="https://www.buymeacoffee.com/SasiBhumaraju"><img className='Icon' src={coffe}></img></a>
+               <a  target="_blank" href="https://www.instagram.com/sasi_bhumaraju/"><img className='Icon' src={instagram}></img></a>
+               <a  target="_blank" href="https://t.me/SasiBhumaraju"><img className='Icon' src={telegram}></img></a>
+               <a  target="_blank" href="https://twitter.com/BhumarajuSashi"><img className='Icon' src={twitter}></img></a>
               </div>
             <a className='HireMe' target="_blank"  href="mailto:sasi.bhumaraju@gmail.com">Hire Me</a>
             </div>

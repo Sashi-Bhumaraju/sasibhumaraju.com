@@ -11,13 +11,11 @@ import HamburgerPage from './components/HamburgerPage';
 function App() {
   return (
     <div className="App">
-           <Navbar></Navbar>
+            <Navbar></Navbar>
             <Home></Home>
             <Skills></Skills>
             <Projects></Projects>
             <Footer></Footer>
-
-            {/* <HamburgerPage></HamburgerPage> */}
     </div>
   );
 }

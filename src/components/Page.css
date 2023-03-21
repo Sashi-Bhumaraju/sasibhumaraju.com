@@ -1,9 +1,0 @@
-.Page {
-    max-width: 1400px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-}
