@@ -74,6 +74,7 @@
 
      width: calc(100% - 20%); 
      padding: 0px 10%; 
+     cursor: none;
 }
 
 .HamItemDark {

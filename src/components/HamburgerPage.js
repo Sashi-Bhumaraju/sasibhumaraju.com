@@ -32,6 +32,7 @@ function HamburgerPage () {
                             activeClass="activeHam"
                             spy={true} smooth={true}
                             duration={500}
+                            onClick={()=> setToggleSlide(false)}
                               >Home</Link></div>
 
                         <div className={isScrollHam?  'HamItemLight' : 'HamItemDark'  } > <Link to="About" 
@@ -39,13 +40,14 @@ function HamburgerPage () {
                                 activeClass="activeHam"
                                 spy={true} smooth={true}
                                 duration={500}
-                                
+                                onClick={()=> setToggleSlide(false)}
                                 >About</Link></div>
 
                         <div  className={isScrollHam?  'HamItemLight' : 'HamItemDark'  } > <Link to="Work"
                                 activeClass="activeHam"
                                 spy={true} smooth={true}
                                 duration={500}
+                                onClick={()=> setToggleSlide(false)}
                                
                                 >Work</Link></div>
 
