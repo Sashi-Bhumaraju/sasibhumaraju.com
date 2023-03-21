@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useState} from 'react';
 import './Projects.css';
 import a from '../assets/projects/botanica.png';
 import b from '../assets/projects/guarage.jpg';
@@ -14,6 +14,17 @@ import Data from '../Data/Data'
 const projectImages = [f,a,g,c,d,b];
 
  function Projects () {
+
+
+    const [isExpanded, setIsExpanded] = useState( [false,false,false,false,false,false] );
+
+    const toggleExpandIt = (i) => {
+        isExpanded[i] = !isExpanded[i]
+        // console.log(isExpanded)
+        var newList = [...isExpanded ]
+      setIsExpanded(newList);
+    };
+
     return(
         <div className='Projects' id="Work">
             <div className='ProjectsHeading'>My Works </div>
@@ -25,7 +36,9 @@ const projectImages = [f,a,g,c,d,b];
                         <div className='ProjectName'> {project.name} </div>
                         {/* <div className='ProjectContent'> */}
                                 
-                                <div className='ProjectDescription'> {project.description} </div>
+                                <div  className= {isExpanded[i]? 'expanded ProjectDescription' : 'ProjectDescription'}> {project.description}
+                                <span className='viewMode' onClick={ ()=>toggleExpandIt(i) } > {isExpanded[i]? 'see less' : ' ... see more'} </span>
+                                 </div>
                                
                         {/* </div> */}
                         <div className='ProjectCardButtons'>
