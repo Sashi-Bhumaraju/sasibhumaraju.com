@@ -91,6 +91,7 @@
     border: 1px solid transparent;
     border-radius: 15px;
     -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
 }
 
 .HamItemLight {
@@ -107,6 +108,7 @@
     border: 1px solid transparent;
     border-radius: 15px;
     -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
 }
 
 
